@@ -1,0 +1,7 @@
+baseURL = "https://yourusername.github.io/taekwondo-academy/"
+locale = 'en-us'
+title = 'Taekwondo'
+theme = "PaperMod"
+languageCode = "en-us"
+[params]
+  description = "Premier Taekwondo Academy in Gooty. Classes for all ages."
