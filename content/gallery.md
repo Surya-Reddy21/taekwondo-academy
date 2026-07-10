@@ -137,6 +137,6 @@ draft: false
   <h2>Want to Be in the Next Gallery?</h2>
   <p>Join us and start your journey today. Your first class is free.</p>
   <div class="cta-buttons">
-    <a href="/contact/" class="btn-primary btn-large">Book a Free Trial</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book a Free Trial</a>
   </div>
 </section>

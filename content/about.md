@@ -107,7 +107,7 @@ draft: false
   <h2>Come Train With Us</h2>
   <p>Meet our team and see our facility. Your first class is completely free.</p>
   <div class="cta-buttons">
-    <a href="/contact/" class="btn-primary btn-large">Book a Free Trial</a>
-    <a href="/instructors/" class="btn-secondary btn-large">Meet the Instructors</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book a Free Trial</a>
+    <a href="/taekwondo-academy/instructors/" class="btn-secondary btn-large">Meet the Instructors</a>
   </div>
 </section>

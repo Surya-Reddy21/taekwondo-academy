@@ -1,4 +1,4 @@
-baseURL = "https://Sai-Sports-Unit.github.io/taekwondo-academy/"
+baseURL = "https://surya-reddy21.github.io/taekwondo-academy/"
 title   = "Taekwondo Training | Sai Sports Unit Academy"
 theme   = "PaperMod"
 
@@ -52,8 +52,8 @@ World-class Taekwondo training for all ages and skill levels.
 From your child's first kick to your black belt journey — we're with you every step.
 
 <div class="hero-cta">
-  <a href="/programs/" class="btn-primary">Explore Programs</a>
-  <a href="/contact/" class="btn-secondary">Book a Free Trial</a>
+  <a href="/taekwondo-academy/programs/" class="btn-primary">Explore Programs</a>
+  <a href="/taekwondo-academy/contact/" class="btn-secondary">Book a Free Trial</a>
 </div>
 """
 

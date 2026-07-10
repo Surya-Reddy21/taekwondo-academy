@@ -37,7 +37,7 @@ draft: false
       <div class="program-meta-item"><strong>Belt Range:</strong> White → High Yellow</div>
     </div>
 
-    <a href="/contact/" class="btn-primary">Book a Free Trial</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary">Book a Free Trial</a>
   </div>
 </section>
 
@@ -69,7 +69,7 @@ draft: false
       <div class="program-meta-item"><strong>Belt Range:</strong> White → Red Belt</div>
     </div>
 
-    <a href="/contact/" class="btn-primary">Book a Free Trial</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary">Book a Free Trial</a>
   </div>
 </section>
 
@@ -101,7 +101,7 @@ draft: false
       <div class="program-meta-item"><strong>Belt Range:</strong> White → Black Belt</div>
     </div>
 
-    <a href="/contact/" class="btn-primary">Book a Free Trial</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary">Book a Free Trial</a>
   </div>
 </section>
 
@@ -133,7 +133,7 @@ draft: false
       <div class="program-meta-item"><strong>Belt Range:</strong> 1st Dan and above</div>
     </div>
 
-    <a href="/contact/" class="btn-primary">Enquire Now</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary">Enquire Now</a>
   </div>
 </section>
 
@@ -163,7 +163,7 @@ draft: false
       <div class="program-meta-item"><strong>Cost:</strong> Included in membership / $[X] drop-in</div>
     </div>
 
-    <a href="/schedule/" class="btn-primary">See Upcoming Dates</a>
+    <a href="/taekwondo-academy/schedule/" class="btn-primary">See Upcoming Dates</a>
   </div>
 </section>
 
@@ -186,7 +186,7 @@ draft: false
       <div class="program-meta-item"><strong>Availability:</strong> Subject to instructor schedule</div>
     </div>
 
-    <a href="/contact/" class="btn-primary">Book a Private Lesson</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary">Book a Private Lesson</a>
   </div>
 </section>
 
@@ -211,7 +211,7 @@ draft: false
         <li>✗ Tournament support</li>
         <li>✗ Black Belt program access</li>
       </ul>
-      <a href="/contact/" class="btn-secondary">Get Started</a>
+      <a href="/taekwondo-academy/contact/" class="btn-secondary">Get Started</a>
     </div>
 
     <div class="pricing-card pricing-featured">
@@ -225,7 +225,7 @@ draft: false
         <li>✓ Tournament support & prep</li>
         <li>✗ Black Belt program access</li>
       </ul>
-      <a href="/contact/" class="btn-primary">Get Started</a>
+      <a href="/taekwondo-academy/contact/" class="btn-primary">Get Started</a>
     </div>
 
     <div class="pricing-card">
@@ -238,7 +238,7 @@ draft: false
         <li>✓ Tournament support & prep</li>
         <li>✓ Black Belt program access</li>
       </ul>
-      <a href="/contact/" class="btn-secondary">Get Started</a>
+      <a href="/taekwondo-academy/contact/" class="btn-secondary">Get Started</a>
     </div>
 
   </div>
@@ -252,7 +252,7 @@ draft: false
   <h2>Not Sure Which Program?</h2>
   <p>Book a free trial and we'll recommend the perfect fit for you or your child.</p>
   <div class="cta-buttons">
-    <a href="/contact/" class="btn-primary btn-large">Book Free Trial</a>
-    <a href="/schedule/" class="btn-secondary btn-large">View Class Schedule</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book Free Trial</a>
+    <a href="/taekwondo-academy/schedule/" class="btn-secondary btn-large">View Class Schedule</a>
   </div>
 </section>

@@ -111,7 +111,7 @@ draft: false
   <div class="join-team-block">
     <h2>Interested in Teaching?</h2>
     <p>Are you a black belt passionate about giving back to the martial arts community? We occasionally bring on assistant instructors and junior coaches. Reach out — we'd love to hear from you.</p>
-    <a href="/contact/" class="btn-secondary">Get in Touch</a>
+    <a href="/taekwondo-academy/contact/" class="btn-secondary">Get in Touch</a>
   </div>
 </section>
 
@@ -122,7 +122,7 @@ draft: false
   <h2>Train with the Best</h2>
   <p>Book your free trial class and experience our coaching first-hand.</p>
   <div class="cta-buttons">
-    <a href="/contact/" class="btn-primary btn-large">Book a Free Trial</a>
-    <a href="/programs/" class="btn-secondary btn-large">View Programs</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book a Free Trial</a>
+    <a href="/taekwondo-academy/programs/" class="btn-secondary btn-large">View Programs</a>
   </div>
 </section>

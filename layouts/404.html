@@ -1,0 +1,23 @@
+{{- define "main" }}
+<section class="not-found-page">
+  <div class="not-found-inner">
+    <div class="not-found-code">404</div>
+    <h1 class="not-found-title">Page Not Found</h1>
+    <p class="not-found-msg">Sorry, the page you're looking for doesn't exist or has been moved.</p>
+    <div class="not-found-actions">
+      <a href="{{ "/" | relURL }}" class="btn-primary btn-large">🏠 Back to Home</a>
+      <a href="{{ "programs/" | relURL }}" class="btn-secondary btn-large">View Programs</a>
+    </div>
+    <nav class="not-found-nav">
+      <p>Or jump to:</p>
+      <ul>
+        <li><a href="{{ "about/" | relURL }}">About Us</a></li>
+        <li><a href="{{ "schedule/" | relURL }}">Class Schedule</a></li>
+        <li><a href="{{ "instructors/" | relURL }}">Instructors</a></li>
+        <li><a href="{{ "gallery/" | relURL }}">Gallery</a></li>
+        <li><a href="{{ "contact/" | relURL }}">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+{{- end }}

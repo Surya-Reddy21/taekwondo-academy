@@ -13,7 +13,7 @@ draft: false
      SCHEDULE NOTICE
      ═══════════════════════════════════════════ -->
 <div class="schedule-notice">
-  💡 <strong>Note:</strong> Schedule is subject to change during public holidays. Follow us on social media or <a href="/contact/">contact us</a> for the most up-to-date information.
+  💡 <strong>Note:</strong> Schedule is subject to change during public holidays. Follow us on social media or <a href="/taekwondo-academy/contact/">contact us</a> for the most up-to-date information.
 </div>
 
 <!-- ═══════════════════════════════════════════
@@ -119,21 +119,21 @@ draft: false
       <div class="program-icon">🛡️</div>
       <h3>Self-Defense Workshop</h3>
       <p>First Saturday of every month, 11:00 AM – 1:00 PM. Open to ages 12+. Included in membership or $[X] drop-in.</p>
-      <a href="/programs/#self-defense" class="card-link">Learn More →</a>
+      <a href="/taekwondo-academy/programs/#self-defense" class="card-link">Learn More →</a>
     </div>
 
     <div class="program-card">
       <div class="program-icon">👤</div>
       <h3>Private Lessons</h3>
       <p>Available on request, subject to instructor availability. Contact us to schedule your session.</p>
-      <a href="/contact/" class="card-link">Book Now →</a>
+      <a href="/taekwondo-academy/contact/" class="card-link">Book Now →</a>
     </div>
 
     <div class="program-card">
       <div class="program-icon">🏫</div>
       <h3>Holiday Camps</h3>
       <p>Intensive training camps during school holidays. Full day and half-day options. Spaces fill fast — register early!</p>
-      <a href="/contact/" class="card-link">Get Notified →</a>
+      <a href="/taekwondo-academy/contact/" class="card-link">Get Notified →</a>
     </div>
 
   </div>
@@ -173,6 +173,6 @@ draft: false
   <h2>Ready to Join a Class?</h2>
   <p>Your first trial class is free. Just show up — we'll take care of the rest.</p>
   <div class="cta-buttons">
-    <a href="/contact/" class="btn-primary btn-large">Book Your Free Trial</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book Your Free Trial</a>
   </div>
 </section>
