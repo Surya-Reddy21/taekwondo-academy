@@ -1,53 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Taekwondo</title>
-    <link>https://yourusername.github.io/taekwondo-academy/</link>
-    <description>Recent content on Taekwondo</description>
+    <title>Home on Taekwondo Academy</title>
+    <link>https://Surya-Reddy21.github.io/taekwondo-academy/</link>
+    <description>Recent content in Home on Taekwondo Academy</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://yourusername.github.io/taekwondo-academy/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="https://Surya-Reddy21.github.io/taekwondo-academy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://yourusername.github.io/taekwondo-academy/about/</link>
+      <link>https://Surya-Reddy21.github.io/taekwondo-academy/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yourusername.github.io/taekwondo-academy/about/</guid>
+      <guid>https://Surya-Reddy21.github.io/taekwondo-academy/gallery/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://yourusername.github.io/taekwondo-academy/contact/</link>
+      <link>https://Surya-Reddy21.github.io/taekwondo-academy/instructors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yourusername.github.io/taekwondo-academy/contact/</guid>
+      <guid>https://Surya-Reddy21.github.io/taekwondo-academy/instructors/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://yourusername.github.io/taekwondo-academy/gallery/</link>
+      <link>https://Surya-Reddy21.github.io/taekwondo-academy/programs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yourusername.github.io/taekwondo-academy/gallery/</guid>
+      <guid>https://Surya-Reddy21.github.io/taekwondo-academy/programs/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://yourusername.github.io/taekwondo-academy/instructors/</link>
+      <link>https://Surya-Reddy21.github.io/taekwondo-academy/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yourusername.github.io/taekwondo-academy/instructors/</guid>
+      <guid>https://Surya-Reddy21.github.io/taekwondo-academy/schedule/</guid>
       <description></description>
     </item>
     <item>
-      <title></title>
-      <link>https://yourusername.github.io/taekwondo-academy/programs/</link>
+      <title>About Us</title>
+      <link>https://Surya-Reddy21.github.io/taekwondo-academy/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yourusername.github.io/taekwondo-academy/programs/</guid>
-      <description></description>
+      <guid>https://Surya-Reddy21.github.io/taekwondo-academy/about/</guid>
+      <description>&lt;h1 id=&#34;about-our-academy&#34;&gt;About Our Academy&lt;/h1&gt;
+&lt;p&gt;We have been training champions since [year].
+Our mission is to develop not just skilled martial artists, but confident and disciplined individuals.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>https://yourusername.github.io/taekwondo-academy/schedule/</link>
+      <title>Contact</title>
+      <link>https://Surya-Reddy21.github.io/taekwondo-academy/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yourusername.github.io/taekwondo-academy/schedule/</guid>
-      <description></description>
+      <guid>https://Surya-Reddy21.github.io/taekwondo-academy/contact/</guid>
+      <description>&lt;h1 id=&#34;get-in-touch&#34;&gt;Get In Touch&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; [Your Full Address]&lt;br&gt;
+&lt;strong&gt;Phone:&lt;/strong&gt; [Your Phone Number]&lt;br&gt;
+&lt;strong&gt;Email:&lt;/strong&gt; [your@email.com]&lt;/p&gt;
+&lt;p&gt;Google Maps embed can go here later.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

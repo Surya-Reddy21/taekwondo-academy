@@ -1,18 +1,18 @@
 ---
-title: "Welcome to Our Taekwondo Academy"
+title: "Home"
 draft: false
 ---
 
-# Welcome to [Your Academy Name]
+# Welcome to Taekwondo Academy
 
-**Empowering Students Through Taekwondo**
+**Discipline. Respect. Excellence.**
 
-We offer professional training for **kids, teens, and adults** in a safe and disciplined environment.
+We are a premier Taekwondo academy dedicated to building strong minds and bodies.
 
 ## Our Programs
-- Little Tigers (Ages 4-6)
-- Junior Champions (Ages 7-12)
-- Teen & Adult Classes
-- Black Belt Leadership Program
+- Kids Classes (4-12 years)
+- Teen & Adult Training
+- Black Belt Program
+- Private Lessons
 
-[Join Now](/contact/) | [View Schedule](/schedule/)
+[View Full Schedule](/schedule/) | [Contact Us](/contact/)
