@@ -28,7 +28,7 @@ draft: false
 <span class="contact-icon">📞</span>
 <div>
 <strong>Phone</strong><br>
-<a href="tel:+10000000000">(000) 000-0000</a>
+<a href="tel:08368156982">08368156982</a>
 </div>
 </div>
 
@@ -36,7 +36,7 @@ draft: false
 <span class="contact-icon">✉️</span>
 <div>
 <strong>Email</strong><br>
-<a href="mailto:info@youracademy.com">info@youracademy.com</a>
+<a href="mailto:saisportsunit@gmail.com">saisportsunit@gmail.com</a>
 </div>
 </div>
 
@@ -44,77 +44,93 @@ draft: false
 <span class="contact-icon">🕐</span>
 <div>
 <strong>Office Hours</strong><br>
-Mon – Fri: 3:30 PM – 8:30 PM<br>
-Saturday: 8:30 AM – 1:30 PM<br>
+Mon – Fri: 00:00 PM – 00:00 PM<br>
+Saturday: 00:00 AM – 00:00 PM<br>
 Sunday: Closed
 </div>
 </div>
 
 <div class="contact-social">
-<a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" class="social-icon-link">📘 Facebook</a>
-<a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer" class="social-icon-link">📸 Instagram</a>
-<a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener noreferrer" class="social-icon-link">▶️ YouTube</a>
+<!--<a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" class="social-icon-link">📘 Facebook</a> -->
+<a href="https://www.instagram.com/saisportsunit/" target="_blank" rel="noopener noreferrer" class="social-icon-link">📸 Instagram</a>
+<!--<a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener noreferrer" class="social-icon-link">▶️ YouTube</a> -->
 </div>
 </div>
 
 <div class="contact-form-wrapper">
 <h2>Send Us a Message</h2>
-<p class="form-note">Fill in the form and we'll get back to you within 24 hours. Or <a href="tel:+10000000000">call us</a> for a faster response.</p>
+<p class="form-note">Fill in the form and we'll get back to you within 24 hours. Or <a href="tel:08368156982">call us</a> for a faster response.</p>
 
-<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-<div class="form-row">
-<div class="form-group">
-<label for="name">Your Name *</label>
-<input type="text" id="name" name="name" placeholder="John Smith" required>
-</div>
-<div class="form-group">
-<label for="phone">Phone Number</label>
-<input type="tel" id="phone" name="phone" placeholder="(000) 000-0000">
-</div>
-</div>
-<div class="form-group">
-<label for="email">Email Address *</label>
-<input type="email" id="email" name="email" placeholder="you@email.com" required>
-</div>
-<div class="form-group">
-<label for="interest">I'm interested in...</label>
-<select id="interest" name="interest">
-<option value="">— Select a program —</option>
-<option value="little-tigers">Little Tigers (Ages 4–7)</option>
-<option value="junior-champions">Junior Champions (Ages 8–14)</option>
-<option value="teen-adult">Teen & Adult (Ages 15+)</option>
-<option value="black-belt">Black Belt Program</option>
-<option value="self-defense">Self-Defense Workshop</option>
-<option value="private">Private Lessons</option>
-<option value="other">Other / General Enquiry</option>
-</select>
-</div>
-<div class="form-group">
-<label for="message">Message</label>
-<textarea id="message" name="message" rows="4" placeholder="Tell us a bit about yourself or your child, any questions you have, or preferred class times..."></textarea>
-</div>
-<button type="submit" class="btn-primary btn-full">Send Message 📤</button>
+<form id="contactForm" class="contact-form" onsubmit="handleFormSubmit(event)">
+  <div class="form-row">
+    <div class="form-group">
+      <label for="name">Your Name *</label>
+      <input type="text" id="name" name="name" placeholder="John Smith" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="email" placeholder="you@email.com" required>
+  </div>
+  <div class="form-group">
+    <label for="interest">I'm interested in...</label>
+    <select id="interest" name="interest">
+      <option value="">— Select a program —</option>
+      <option value="Little Tigers (Ages 4–7)">Little Tigers (Ages 4–7)</option>
+      <option value="Junior Champions (Ages 8–14)">Junior Champions (Ages 8–14)</option>
+      <option value="Teen & Adult (Ages 15+)">Teen & Adult (Ages 15+)</option>
+      <option value="Other / General Enquiry">Other / General Enquiry</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about yourself or your child, any questions you have, or preferred class times..."></textarea>
+  </div>
+  <button type="submit" class="btn-primary btn-full">Send via WhatsApp 📱</button>
 </form>
-</div>
 
+<script>
+function handleFormSubmit(e) {
+  e.preventDefault();
+
+  const name = document.getElementById('name').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const interest = document.getElementById('interest').value;
+  const message = document.getElementById('message').value.trim();
+
+  const text = `*New Enquiry - Sai Sports Unit Taekwondo Academy*%0A%0A` +
+               `*Name:* ${name}%0A` +
+               `*Phone:* ${phone || 'Not provided'}%0A` +
+               `*Email:* ${email}%0A` +
+               `*Interest:* ${interest || 'General Enquiry'}%0A` +
+               `*Message:* ${message || 'No additional message'}%0A%0A` +
+               `Sent from website contact form.`;
+
+  const waNumber = '8886406452';
+  const waUrl = `https://wa.me/${waNumber}?text=${text}`;
+
+  window.open(waUrl, '_blank');
+}
+</script>
 </div>
 </section>
 
 <section class="section-block section-dark">
-<h2 class="section-title">Find Us</h2>
-<div class="map-wrapper">
-<div class="map-placeholder">
-🗺️ Google Maps Embed<br>
-<small>Replace this block with your Google Maps iframe.<br>
-Go to maps.google.com → Search your address → Share → Embed a map</small>
-</div>
-</div>
+  <h2 class="section-title">Find Us</h2>
+  <div class="map-wrapper">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1738.536104912145!2d77.64205240171356!3d15.133848710020436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1783682272111!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
 </section>
 
 <section class="section-block">
 <h2 class="section-title">Frequently Asked Questions</h2>
 
-<div class="faq-list">
+<!--<div class="faq-list">
 
 <div class="faq-item">
 <h4>❓ Do I need any experience to join?</h4>
@@ -129,14 +145,14 @@ Go to maps.google.com → Search your address → Share → Embed a map</small>
 <div class="faq-item">
 <h4>❓ How long does it take to get a black belt?</h4>
 <p>For a dedicated student training 2–3 times per week, the average time is 4–5 years. It varies by age, commitment, and natural progress.</p>
-</div>
+</div> -->
 
 <div class="faq-item">
 <h4>❓ Is Taekwondo safe for young children?</h4>
 <p>Yes — with proper supervision and age-appropriate instruction, Taekwondo is one of the safest martial arts for children. Our Little Tigers classes are non-contact and focus on fun fundamentals.</p>
 </div>
 
-<div class="faq-item">
+<!-- <div class="faq-item">
 <h4>❓ Do you offer family discounts?</h4>
 <p>Yes! We offer sibling and family membership discounts. Contact us for details.</p>
 </div>
@@ -144,7 +160,7 @@ Go to maps.google.com → Search your address → Share → Embed a map</small>
 <div class="faq-item">
 <h4>❓ What if I miss a class?</h4>
 <p>We offer make-up classes for missed sessions. Just let your instructor know in advance when possible.</p>
-</div>
+</div> -->
 
 </div>
 </section>

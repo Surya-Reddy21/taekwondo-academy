@@ -2,24 +2,26 @@
 
 {{/* ── Hero (homeInfoParams) ── */}}
 {{- if site.Params.homeInfoParams }}
+<div class="hero-bg-wrapper" style="background-image: linear-gradient(155deg, rgba(10,3,3,0.74) 0%, rgba(30,5,10,0.68) 45%, rgba(10,3,0,0.80) 100%), url('{{ "images/taekwondo.jpg" | absURL }}'); background-size: cover; background-position: center 30%; background-repeat: no-repeat;">
 {{- partial "home_info.html" . }}
+</div>
 {{- end }}
 
 {{/* ── Stats Bar ── */}}
 <section class="stats-bar">
   <div class="stats-inner">
     <div class="stat-item">
-      <span class="stat-number">15+</span>
+      <span class="stat-number">8+</span>
       <span class="stat-label">Years of Excellence</span>
     </div>
     <div class="stat-item">
-      <span class="stat-number">500+</span>
+      <span class="stat-number">50+</span>
       <span class="stat-label">Students Trained</span>
     </div>
-    <div class="stat-item">
-      <span class="stat-number">50+</span>
+    <!-- <div class="stat-item">
+      <span class="stat-number">10+</span>
       <span class="stat-label">Black Belt Graduates</span>
-    </div>
+    </div> -->
     <div class="stat-item">
       <span class="stat-number">4.9★</span>
       <span class="stat-label">Community Rating</span>
@@ -57,13 +59,13 @@
       <a href="{{ "programs/" | relURL }}#teen-adult" class="card-link">Learn More →</a>
     </div>
 
-    <div class="program-card">
+    <!--<div class="program-card">
       <div class="program-icon">🏆</div>
       <h3>Black Belt Program</h3>
       <p class="program-age">All Ages</p>
       <p>Our elite pathway for dedicated students. Advanced forms, leadership training, and preparation for national competitions.</p>
       <a href="{{ "programs/" | relURL }}#black-belt" class="card-link">Learn More →</a>
-    </div>
+    </div> -->
 
     <div class="program-card">
       <div class="program-icon">🛡️</div>
@@ -73,13 +75,13 @@
       <a href="{{ "programs/" | relURL }}#self-defense" class="card-link">Learn More →</a>
     </div>
 
-    <div class="program-card">
+    <!-- <div class="program-card">
       <div class="program-icon">👤</div>
       <h3>Private Lessons</h3>
       <p class="program-age">All Ages</p>
       <p>One-on-one coaching tailored to your exact goals — accelerated belt progression, competition prep, or personal fitness.</p>
       <a href="{{ "contact/" | relURL }}" class="card-link">Book Now →</a>
-    </div>
+    </div> -->
 
   </div>
 </section>
@@ -89,7 +91,7 @@
   <h2 class="section-title">Why Families Choose Sai Sports Unit</h2>
   <div class="features-grid">
 
-    <div class="feature-item">
+    <!-- <div class="feature-item">
       <span class="feature-icon">🎓</span>
       <h4>World-Class Instructors</h4>
       <p>Our certified black-belt instructors bring decades of competitive and teaching experience to every class.</p>
@@ -99,7 +101,7 @@
       <span class="feature-icon">📈</span>
       <h4>Structured Progression</h4>
       <p>Clear belt curriculum with regular grading events so students and parents always know what to work toward.</p>
-    </div>
+    </div> -->
 
     <div class="feature-item">
       <span class="feature-icon">❤️</span>
@@ -110,7 +112,7 @@
     <div class="feature-item">
       <span class="feature-icon">🏅</span>
       <h4>Proven Results</h4>
-      <p>State, national, and international medal winners trained right here. Your champion journey starts on this mat.</p>
+      <p>State, national medal winners trained right here. Your champion journey starts on this mat.</p>
     </div>
 
     <div class="feature-item">
@@ -151,20 +153,20 @@
 
     <div class="testimonial-card">
       <div class="testimonial-stars">★★★★★</div>
-      <p>"My daughter has been training here for 2 years. Her confidence has skyrocketed. The instructors are patient, motivating, and genuinely care about every child."</p>
-      <div class="testimonial-author">— Sarah M., Parent</div>
+      <p>"Comment - 1"</p>
+      <div class="testimonial-author">— Anjum, Student</div>
     </div>
 
     <div class="testimonial-card">
       <div class="testimonial-stars">★★★★★</div>
-      <p>"I joined as a complete beginner at 34 years old. Best decision I ever made. I'm now a green belt and training for competitions. The community here is incredible."</p>
-      <div class="testimonial-author">— James T., Adult Student</div>
+      <p>"Comment - 2"</p>
+      <div class="testimonial-author">— Keerthana, Student</div>
     </div>
 
     <div class="testimonial-card">
       <div class="testimonial-stars">★★★★★</div>
-      <p>"Both my boys train here. The structured curriculum keeps them engaged and the instructors are amazing role models. We see the discipline carry over into school too."</p>
-      <div class="testimonial-author">— Priya K., Parent of 2</div>
+      <p>"Comment - 3"</p>
+      <div class="testimonial-author">— Pojitha, Student</div>
     </div>
 
   </div>
@@ -214,7 +216,7 @@
   ],
   "sameAs": [
     "https://facebook.com/yourpage",
-    "https://instagram.com/yourpage",
+    "https://instagram.com/saisportsunit/",
     "https://youtube.com/@yourchannel"
   ]
 }

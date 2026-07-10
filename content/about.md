@@ -13,13 +13,13 @@ draft: false
 <div class="two-col">
 <div class="two-col-text">
 <h2>How It All Began</h2>
-<p>Sai Sports Unit Academy was founded in <strong>[YEAR]</strong> by Master <strong>[Instructor Name]</strong>, a [X]th-degree black belt with over [N] years of competitive and coaching experience. What started as a small class of 12 students has grown into a thriving community of over 500 martial artists.</p>
-<p>Our academy is affiliated with [your national/international federation, e.g., World Taekwondo or ATA] and follows an internationally recognized curriculum that balances traditional values with modern sports science.</p>
-<p>We believe Taekwondo is more than kicks and punches — it is a lifelong discipline that shapes character, builds resilience, and creates leaders.</p>
+<p>Sai Sports Unit Academy was founded in <strong>2018</strong> by Master <strong>Sai Teja</strong></p>
+<p></p>
+<p></p>
 </div>
 <div class="two-col-image">
 <div class="image-placeholder">
-📸 Photo: Academy / Dojang Interior<br><small>Replace with <code>static/images/dojang.jpg</code></small>
+📸 Photo: Academy<br><small>Replace with <code>static/images/dojang.jpg</code></small>
 </div>
 </div>
 </div>
@@ -59,11 +59,11 @@ draft: false
 <div class="achievement-item">
 <span class="achievement-icon">🏆</span>
 <div>
-<h4>[Year] State Championship — Gold Medal</h4>
-<p>Our students represented the academy at the state level and brought home multiple medals in sparring and poomsae categories.</p>
+<h4> Championship — Bronze Medal</h4>
+<p>Our students represented the academy at the state and national level and brought home multiple medals in sparring and poomsae categories.</p>
 </div>
 </div>
-<div class="achievement-item">
+<!-- <div class="achievement-item">
 <span class="achievement-icon">🌐</span>
 <div>
 <h4>World Taekwondo Certified Coaches</h4>
@@ -84,7 +84,7 @@ draft: false
 <p>We partner with local schools to offer after-school Taekwondo programs, reaching kids who might not otherwise access martial arts.</p>
 </div>
 </div>
-</div>
+</div> -->
 </section>
 
 <section class="cta-banner">

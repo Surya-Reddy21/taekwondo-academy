@@ -31,9 +31,9 @@ buildExpired = false
   keywords    = ["taekwondo", "martial arts", "kids martial arts", "self defense", "black belt", "taekwondo academy", "karate classes near me"]
   author      = "Sai Sports Unit Academy"
 
-  # Default theme — set to "dark" for black/red feel, or "auto"
-  defaultTheme  = "dark"
-  disableThemeToggle = false
+  # Light theme — bright, clean, professional
+  defaultTheme  = "light"
+  disableThemeToggle = true
 
   # Date / reading time
   ShowReadingTime  = false
@@ -44,7 +44,7 @@ buildExpired = false
 
   # Home page — use homeInfoParams (not profileMode) for the hero banner
   [params.homeInfoParams]
-    Title   = "⚡ Sai Sports Unit Academy"
+    Title   = "Sai Sports Unit Academy"
     Content = """
 **Discipline. Respect. Excellence.**
 
@@ -66,7 +66,7 @@ From your child's first kick to your black belt journey — we're with you every
   [[params.socialIcons]]
     name  = "instagram"
     title = "Instagram"
-    url   = "https://instagram.com/yourpage"
+    url   = "https://instagram.com/saisportsunit"
 
   [[params.socialIcons]]
     name  = "youtube"
@@ -88,8 +88,8 @@ From your child's first kick to your black belt journey — we're with you every
     favicon32x32      = "/favicon-32x32.png"
     apple_touch_icon  = "/apple-touch-icon.png"
     safari_pinned_tab = "/safari-pinned-tab.svg"
-    theme_color       = "#c0392b"           # red — used by Chrome on Android
-    msapplication_TileColor = "#1a1a1a"
+    theme_color       = "#e01e2e"
+    msapplication_TileColor = "#ffffff"
 
   # Schema.org LocalBusiness — replace all [PLACEHOLDERS]
   [params.schema]

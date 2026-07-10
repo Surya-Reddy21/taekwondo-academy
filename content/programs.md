@@ -207,7 +207,7 @@ draft: false
 <a href="/taekwondo-academy/contact/" class="btn-primary">Get Started</a>
 </div>
 
-<div class="pricing-card">
+<!--<div class="pricing-card">
 <h3>Elite</h3>
 <div class="price">$[X]<span>/mo</span></div>
 <ul>
@@ -218,7 +218,7 @@ draft: false
 <li>✓ Black Belt program access</li>
 </ul>
 <a href="/taekwondo-academy/contact/" class="btn-secondary">Get Started</a>
-</div>
+</div> -->
 
 </div>
 <p class="pricing-note">Family discounts available. Ask about sibling rates. First class is always free.</p>

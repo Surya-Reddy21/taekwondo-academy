@@ -1,17 +1,25 @@
 {{- /* ═══════════════════════════════════════════════════
-     Custom <head> additions for Sai Sports Unit Academy
+     Custom <head> — Sai Sports Unit Academy
      ═══════════════════════════════════════════════════ */}}
 
-{{- /* Google Fonts — load Inter for clean modern type */}}
+{{- /* Google Fonts — Inter for clean modern typography */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-{{- /* Apply Inter across the site */}}
+{{- /* Force light theme — override any stored dark preference */}}
+<script>
+  document.documentElement.dataset.theme = 'light';
+  localStorage.setItem('pref-theme', 'light');
+</script>
+
+{{- /* Base font applied before render to prevent FOUT */}}
 <style>
-  body, .menu a, .logo a {
+  body, .menu a, .logo a, button, input, select, textarea {
     font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
   }
+  /* Prevent flash of dark background on load */
+  html { background: #ffffff; }
 </style>
 
 {{- /* Open Graph image fallback */}}
@@ -19,7 +27,5 @@
 <meta property="og:image" content="{{ .Site.BaseURL }}images/og-default.jpg">
 <meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-default.jpg">
 {{- end }}
-
-{{- /* Twitter card type */}}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@yourhandle">

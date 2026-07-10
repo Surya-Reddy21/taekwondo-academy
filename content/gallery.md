@@ -313,7 +313,7 @@ if (e.key === 'ArrowRight') navigate(1);
 
 <section class="section-block section-dark">
 <h2 class="section-title">Video Highlights</h2>
-<p class="section-subtitle">Watch our students in action. Replace the video IDs with your actual YouTube video IDs.</p>
+<p class="section-subtitle">Watch our students in action.</p>
 
 <div class="video-grid">
 <div>
@@ -346,16 +346,16 @@ allowfullscreen loading="lazy">
 <h2>Follow Our Daily Journey</h2>
 <p>Daily training clips, student milestones, event coverage — all on our social channels.</p>
 <div class="social-follow-links">
-<a href="https://instagram.com/yourpage" class="social-follow-btn" target="_blank" rel="noopener noreferrer">📸 @yourpage on Instagram</a>
-<a href="https://facebook.com/yourpage" class="social-follow-btn" target="_blank" rel="noopener noreferrer">👍 Facebook Page</a>
-<a href="https://youtube.com/@yourchannel" class="social-follow-btn" target="_blank" rel="noopener noreferrer">▶️ YouTube Channel</a>
+<a href="https://www.instagram.com/saisportsunit/" class="social-follow-btn" target="_blank" rel="noopener noreferrer">📸 @saisportsunit on Instagram</a>
+<!-- <a href="https://facebook.com/yourpage" class="social-follow-btn" target="_blank" rel="noopener noreferrer">👍 Facebook Page</a> -->
+<a href="https://youtube.com/" class="social-follow-btn" target="_blank" rel="noopener noreferrer">▶️ YouTube Channel</a> 
 </div>
 </div>
 </section>
 
 <section class="cta-banner">
 <h2>Your Photo Could Be Next</h2>
-<p>Join Sai Sports Unit Academy and start your martial arts story today. First class is free.</p>
+<p>Join Sai Sports Unit Academy and start your martial arts story today.</p>
 <div class="cta-buttons">
 <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book Your Free Trial</a>
 <a href="/taekwondo-academy/schedule/" class="btn-secondary btn-large">View Schedule</a>
