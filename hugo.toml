@@ -1,7 +1,50 @@
-baseURL = "https://yourusername.github.io/taekwondo-academy/"
-locale = 'en-us'
-title = 'Taekwondo'
+baseURL = "https://Surya-Reddy21.github.io/taekwondo-academy/"
+title = "Taekwondo Academy"
 theme = "PaperMod"
-languageCode = "en-us"
+
+# Language & SEO
+languageCode = "en"
+defaultContentLanguage = "en"
+
 [params]
-  description = "Premier Taekwondo Academy in Gooty. Classes for all ages."
+  description = "Premier Taekwondo Academy in Gooty. Training for all ages and levels."
+  author = "Your Academy Name"
+
+  # Appearance
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = false
+
+  # Home page
+  homeMetaContent = "Taekwondo | Discipline | Focus | Strength"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Programs"
+    url = "/programs/"
+    weight = 3
+  [[menu.main]]
+    name = "Schedule"
+    url = "/schedule/"
+    weight = 4
+  [[menu.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 5
+  [[menu.main]]
+    name = "Instructors"
+    url = "/instructors/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
