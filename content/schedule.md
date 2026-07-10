@@ -5,556 +5,529 @@ draft: false
 ---
 
 <section class="page-hero">
-  <h1>Class Schedule</h1>
-  <p>Morning, afternoon, and evening classes for every age and level.<br>New sessions begin every month — your first class is always free.</p>
+<h1>Class Schedule</h1>
+<p>Morning, afternoon, and evening classes for every age and level.<br>New sessions begin every month — your first class is always free.</p>
 </section>
 
-<!-- ════════════════════════════════════════════
-     QUICK INFO STRIP
-     ════════════════════════════════════════════ -->
 <div class="schedule-info-strip">
-  <div class="sinfo-item">
-    <span class="sinfo-icon">📍</span>
-    <div><strong>Location</strong><br>[Your Full Address]</div>
-  </div>
-  <div class="sinfo-item">
-    <span class="sinfo-icon">📞</span>
-    <div><strong>Enquiries</strong><br><a href="tel:+10000000000">(000) 000-0000</a></div>
-  </div>
-  <div class="sinfo-item">
-    <span class="sinfo-icon">🆓</span>
-    <div><strong>First Class</strong><br>Always Free · No Commitment</div>
-  </div>
-  <div class="sinfo-item">
-    <span class="sinfo-icon">👕</span>
-    <div><strong>Dress Code</strong><br>Sportswear OK for trial class</div>
-  </div>
+<div class="sinfo-item">
+<span class="sinfo-icon">📍</span>
+<div><strong>Location</strong><br>[Your Full Address]</div>
+</div>
+<div class="sinfo-item">
+<span class="sinfo-icon">📞</span>
+<div><strong>Enquiries</strong><br><a href="tel:+10000000000">(000) 000-0000</a></div>
+</div>
+<div class="sinfo-item">
+<span class="sinfo-icon">🆓</span>
+<div><strong>First Class</strong><br>Always Free · No Commitment</div>
+</div>
+<div class="sinfo-item">
+<span class="sinfo-icon">👕</span>
+<div><strong>Dress Code</strong><br>Sportswear OK for trial class</div>
+</div>
 </div>
 
-<!-- ════════════════════════════════════════════
-     SCHEDULE TABS — Kids / Teens / Adults / Black Belt
-     ════════════════════════════════════════════ -->
 <section class="section-block">
-  <h2 class="section-title">Weekly Timetable</h2>
-  <p class="section-subtitle">Select a program group to jump to its schedule, or scroll through all classes below.</p>
+<h2 class="section-title">Weekly Timetable</h2>
+<p class="section-subtitle">Select a program group to jump to its schedule, or scroll through all classes below.</p>
 
-  <!-- Tab nav -->
-  <div class="sched-tabs" role="tablist">
-    <button class="sched-tab active" onclick="showTab('kids')"   role="tab" aria-selected="true">🐯 Kids</button>
-    <button class="sched-tab"        onclick="showTab('juniors')" role="tab">⚡ Juniors</button>
-    <button class="sched-tab"        onclick="showTab('adults')"  role="tab">🔥 Teen &amp; Adult</button>
-    <button class="sched-tab"        onclick="showTab('bb')"      role="tab">🏆 Black Belt</button>
-  </div>
+<div class="sched-tabs" role="tablist">
+<button class="sched-tab active" onclick="showTab('kids')"   role="tab" aria-selected="true">🐯 Kids</button>
+<button class="sched-tab"        onclick="showTab('juniors')" role="tab">⚡ Juniors</button>
+<button class="sched-tab"        onclick="showTab('adults')"  role="tab">🔥 Teen &amp; Adult</button>
+<button class="sched-tab"        onclick="showTab('bb')"      role="tab">🏆 Black Belt</button>
+</div>
 
-  <!-- ── KIDS: Little Tigers (Ages 4–7) ── -->
-  <div class="sched-panel active" id="tab-kids">
-    <div class="sched-panel-header">
-      <span class="sched-badge badge-orange">🐯 Little Tigers · Ages 4–7</span>
-      <p>Fun, non-contact fundamentals. Emphasis on listening, coordination, and confidence. No sparring at this level.</p>
-    </div>
-    <div class="schedule-table-wrapper">
-      <table class="schedule-table">
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Duration</th>
-            <th>Class Type</th>
-            <th>Instructor</th>
-            <th>Spots</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="day-cell">Monday</td>
-            <td class="time-cell">4:00 – 4:45 PM</td>
-            <td>45 min</td>
-            <td><span class="class-tag class-tigers">Beginner Fundamentals</span></td>
-            <td>Instructor [A]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Wednesday</td>
-            <td class="time-cell">4:00 – 4:45 PM</td>
-            <td>45 min</td>
-            <td><span class="class-tag class-tigers">Beginner Fundamentals</span></td>
-            <td>Instructor [A]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Friday</td>
-            <td class="time-cell">4:00 – 4:45 PM</td>
-            <td>45 min</td>
-            <td><span class="class-tag class-tigers">Games &amp; Techniques</span></td>
-            <td>Instructor [B]</td>
-            <td class="spots-cell spots-limited">4 left</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Saturday</td>
-            <td class="time-cell">10:00 – 10:45 AM</td>
-            <td>45 min</td>
-            <td><span class="class-tag class-tigers">Weekend Fun Class</span></td>
-            <td>Instructor [A]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="sched-notes">
-      <div class="sched-note">✅ Uniform (dobok) provided on enrollment</div>
-      <div class="sched-note">✅ Max 12 students per class</div>
-      <div class="sched-note">✅ Parents welcome to observe</div>
-      <div class="sched-note">✅ Progress report every grading cycle</div>
-    </div>
-  </div>
+<div class="sched-panel active" id="tab-kids">
+<div class="sched-panel-header">
+<span class="sched-badge badge-orange">🐯 Little Tigers · Ages 4–7</span>
+<p>Fun, non-contact fundamentals. Emphasis on listening, coordination, and confidence. No sparring at this level.</p>
+</div>
+<div class="schedule-table-wrapper">
+<table class="schedule-table">
+<thead>
+<tr>
+<th>Day</th>
+<th>Time</th>
+<th>Duration</th>
+<th>Class Type</th>
+<th>Instructor</th>
+<th>Spots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="day-cell">Monday</td>
+<td class="time-cell">4:00 – 4:45 PM</td>
+<td>45 min</td>
+<td><span class="class-tag class-tigers">Beginner Fundamentals</span></td>
+<td>Instructor [A]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+<tr>
+<td class="day-cell">Wednesday</td>
+<td class="time-cell">4:00 – 4:45 PM</td>
+<td>45 min</td>
+<td><span class="class-tag class-tigers">Beginner Fundamentals</span></td>
+<td>Instructor [A]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+<tr>
+<td class="day-cell">Friday</td>
+<td class="time-cell">4:00 – 4:45 PM</td>
+<td>45 min</td>
+<td><span class="class-tag class-tigers">Games &amp; Techniques</span></td>
+<td>Instructor [B]</td>
+<td class="spots-cell spots-limited">4 left</td>
+</tr>
+<tr>
+<td class="day-cell">Saturday</td>
+<td class="time-cell">10:00 – 10:45 AM</td>
+<td>45 min</td>
+<td><span class="class-tag class-tigers">Weekend Fun Class</span></td>
+<td>Instructor [A]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sched-notes">
+<div class="sched-note">✅ Uniform (dobok) provided on enrollment</div>
+<div class="sched-note">✅ Max 12 students per class</div>
+<div class="sched-note">✅ Parents welcome to observe</div>
+<div class="sched-note">✅ Progress report every grading cycle</div>
+</div>
+</div>
 
-  <!-- ── JUNIORS: Junior Champions (Ages 8–14) ── -->
-  <div class="sched-panel" id="tab-juniors">
-    <div class="sched-panel-header">
-      <span class="sched-badge badge-red">⚡ Junior Champions · Ages 8–14</span>
-      <p>Full Taekwondo curriculum including poomsae, sparring, and board breaking. Belt grading every 3 months.</p>
-    </div>
-    <div class="schedule-table-wrapper">
-      <table class="schedule-table">
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Duration</th>
-            <th>Class Type</th>
-            <th>Instructor</th>
-            <th>Spots</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="day-cell">Monday</td>
-            <td class="time-cell">5:00 – 6:00 PM</td>
-            <td>60 min</td>
-            <td><span class="class-tag class-kids">Poomsae &amp; Techniques</span></td>
-            <td>Instructor [B]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Tuesday</td>
-            <td class="time-cell">5:00 – 6:00 PM</td>
-            <td>60 min</td>
-            <td><span class="class-tag class-kids">Sparring &amp; Footwork</span></td>
-            <td>Instructor [C]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Thursday</td>
-            <td class="time-cell">5:00 – 6:00 PM</td>
-            <td>60 min</td>
-            <td><span class="class-tag class-kids">Sparring &amp; Footwork</span></td>
-            <td>Instructor [C]</td>
-            <td class="spots-cell spots-limited">6 left</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Saturday</td>
-            <td class="time-cell">9:00 – 10:00 AM</td>
-            <td>60 min</td>
-            <td><span class="class-tag class-kids">Competition Prep</span></td>
-            <td>Master [Name]</td>
-            <td class="spots-cell spots-full">Full</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="sched-notes">
-      <div class="sched-note">✅ Sparring gear required from Green belt (provided for trial)</div>
-      <div class="sched-note">✅ Max 20 students per class</div>
-      <div class="sched-note">✅ Tournament entry supported by coaches</div>
-      <div class="sched-note">✅ Grading report sent to parents after each cycle</div>
-    </div>
-  </div>
+<div class="sched-panel" id="tab-juniors">
+<div class="sched-panel-header">
+<span class="sched-badge badge-red">⚡ Junior Champions · Ages 8–14</span>
+<p>Full Taekwondo curriculum including poomsae, sparring, and board breaking. Belt grading every 3 months.</p>
+</div>
+<div class="schedule-table-wrapper">
+<table class="schedule-table">
+<thead>
+<tr>
+<th>Day</th>
+<th>Time</th>
+<th>Duration</th>
+<th>Class Type</th>
+<th>Instructor</th>
+<th>Spots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="day-cell">Monday</td>
+<td class="time-cell">5:00 – 6:00 PM</td>
+<td>60 min</td>
+<td><span class="class-tag class-kids">Poomsae &amp; Techniques</span></td>
+<td>Instructor [B]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+<tr>
+<td class="day-cell">Tuesday</td>
+<td class="time-cell">5:00 – 6:00 PM</td>
+<td>60 min</td>
+<td><span class="class-tag class-kids">Sparring &amp; Footwork</span></td>
+<td>Instructor [C]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+<tr>
+<td class="day-cell">Thursday</td>
+<td class="time-cell">5:00 – 6:00 PM</td>
+<td>60 min</td>
+<td><span class="class-tag class-kids">Sparring &amp; Footwork</span></td>
+<td>Instructor [C]</td>
+<td class="spots-cell spots-limited">6 left</td>
+</tr>
+<tr>
+<td class="day-cell">Saturday</td>
+<td class="time-cell">9:00 – 10:00 AM</td>
+<td>60 min</td>
+<td><span class="class-tag class-kids">Competition Prep</span></td>
+<td>Master [Name]</td>
+<td class="spots-cell spots-full">Full</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sched-notes">
+<div class="sched-note">✅ Sparring gear required from Green belt (provided for trial)</div>
+<div class="sched-note">✅ Max 20 students per class</div>
+<div class="sched-note">✅ Tournament entry supported by coaches</div>
+<div class="sched-note">✅ Grading report sent to parents after each cycle</div>
+</div>
+</div>
 
-  <!-- ── ADULTS: Teen & Adult (Ages 15+) ── -->
-  <div class="sched-panel" id="tab-adults">
-    <div class="sched-panel-header">
-      <span class="sched-badge badge-gold">🔥 Teen &amp; Adult · Ages 15+</span>
-      <p>Full curriculum from white belt to black belt. High-intensity sparring, poomsae, and conditioning. All fitness levels welcome.</p>
-    </div>
-    <div class="schedule-table-wrapper">
-      <table class="schedule-table">
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Duration</th>
-            <th>Class Type</th>
-            <th>Instructor</th>
-            <th>Spots</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="day-cell">Monday</td>
-            <td class="time-cell">6:00 – 7:15 PM</td>
-            <td>75 min</td>
-            <td><span class="class-tag class-adult">Technique &amp; Poomsae</span></td>
-            <td>Instructor [C]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Wednesday</td>
-            <td class="time-cell">6:00 – 7:15 PM</td>
-            <td>75 min</td>
-            <td><span class="class-tag class-adult">Sparring &amp; Conditioning</span></td>
-            <td>Master [Name]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Friday</td>
-            <td class="time-cell">6:00 – 7:15 PM</td>
-            <td>75 min</td>
-            <td><span class="class-tag class-adult">Mixed Training</span></td>
-            <td>Instructor [C]</td>
-            <td class="spots-cell spots-limited">3 left</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Saturday</td>
-            <td class="time-cell">9:00 – 10:15 AM</td>
-            <td>75 min</td>
-            <td><span class="class-tag class-adult">Open Mat / Free Sparring</span></td>
-            <td>Master [Name]</td>
-            <td class="spots-cell spots-open">Open</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="sched-notes">
-      <div class="sched-note">✅ Beginners start with no gear — provided for trial class</div>
-      <div class="sched-note">✅ Max 25 students per class</div>
-      <div class="sched-note">✅ Fitness-only training option available (ask instructor)</div>
-      <div class="sched-note">✅ Make-up class available for missed sessions</div>
-    </div>
-  </div>
+<div class="sched-panel" id="tab-adults">
+<div class="sched-panel-header">
+<span class="sched-badge badge-gold">🔥 Teen &amp; Adult · Ages 15+</span>
+<p>Full curriculum from white belt to black belt. High-intensity sparring, poomsae, and conditioning. All fitness levels welcome.</p>
+</div>
+<div class="schedule-table-wrapper">
+<table class="schedule-table">
+<thead>
+<tr>
+<th>Day</th>
+<th>Time</th>
+<th>Duration</th>
+<th>Class Type</th>
+<th>Instructor</th>
+<th>Spots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="day-cell">Monday</td>
+<td class="time-cell">6:00 – 7:15 PM</td>
+<td>75 min</td>
+<td><span class="class-tag class-adult">Technique &amp; Poomsae</span></td>
+<td>Instructor [C]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+<tr>
+<td class="day-cell">Wednesday</td>
+<td class="time-cell">6:00 – 7:15 PM</td>
+<td>75 min</td>
+<td><span class="class-tag class-adult">Sparring &amp; Conditioning</span></td>
+<td>Master [Name]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+<tr>
+<td class="day-cell">Friday</td>
+<td class="time-cell">6:00 – 7:15 PM</td>
+<td>75 min</td>
+<td><span class="class-tag class-adult">Mixed Training</span></td>
+<td>Instructor [C]</td>
+<td class="spots-cell spots-limited">3 left</td>
+</tr>
+<tr>
+<td class="day-cell">Saturday</td>
+<td class="time-cell">9:00 – 10:15 AM</td>
+<td>75 min</td>
+<td><span class="class-tag class-adult">Open Mat / Free Sparring</span></td>
+<td>Master [Name]</td>
+<td class="spots-cell spots-open">Open</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sched-notes">
+<div class="sched-note">✅ Beginners start with no gear — provided for trial class</div>
+<div class="sched-note">✅ Max 25 students per class</div>
+<div class="sched-note">✅ Fitness-only training option available (ask instructor)</div>
+<div class="sched-note">✅ Make-up class available for missed sessions</div>
+</div>
+</div>
 
-  <!-- ── BLACK BELT PROGRAM ── -->
-  <div class="sched-panel" id="tab-bb">
-    <div class="sched-panel-header">
-      <span class="sched-badge badge-black">🏆 Black Belt Program · By Invitation</span>
-      <p>Advanced training for dedicated color-belt students. Invitation-only. Focus on advanced poomsae, competition strategy, and leadership.</p>
-    </div>
-    <div class="schedule-table-wrapper">
-      <table class="schedule-table">
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Duration</th>
-            <th>Class Type</th>
-            <th>Instructor</th>
-            <th>Spots</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="day-cell">Monday</td>
-            <td class="time-cell">7:15 – 8:45 PM</td>
-            <td>90 min</td>
-            <td><span class="class-tag class-blackbelt">Advanced Poomsae</span></td>
-            <td>Master [Name]</td>
-            <td class="spots-cell spots-limited">2 left</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Wednesday</td>
-            <td class="time-cell">7:15 – 8:45 PM</td>
-            <td>90 min</td>
-            <td><span class="class-tag class-blackbelt">Competition Sparring</span></td>
-            <td>Master [Name]</td>
-            <td class="spots-cell spots-limited">2 left</td>
-          </tr>
-          <tr>
-            <td class="day-cell">Saturday</td>
-            <td class="time-cell">10:30 AM – 12:00 PM</td>
-            <td>90 min</td>
-            <td><span class="class-tag class-blackbelt">Dan Preparation</span></td>
-            <td>Master [Name]</td>
-            <td class="spots-cell spots-limited">2 left</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="sched-notes">
-      <div class="sched-note">⚠️ Invitation required — speak with Master [Name]</div>
-      <div class="sched-note">✅ Includes national competition preparation</div>
-      <div class="sched-note">✅ Junior instructor pathway available</div>
-      <div class="sched-note">✅ Private mentoring sessions included</div>
-    </div>
-  </div>
+<div class="sched-panel" id="tab-bb">
+<div class="sched-panel-header">
+<span class="sched-badge badge-black">🏆 Black Belt Program · By Invitation</span>
+<p>Advanced training for dedicated color-belt students. Invitation-only. Focus on advanced poomsae, competition strategy, and leadership.</p>
+</div>
+<div class="schedule-table-wrapper">
+<table class="schedule-table">
+<thead>
+<tr>
+<th>Day</th>
+<th>Time</th>
+<th>Duration</th>
+<th>Class Type</th>
+<th>Instructor</th>
+<th>Spots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="day-cell">Monday</td>
+<td class="time-cell">7:15 – 8:45 PM</td>
+<td>90 min</td>
+<td><span class="class-tag class-blackbelt">Advanced Poomsae</span></td>
+<td>Master [Name]</td>
+<td class="spots-cell spots-limited">2 left</td>
+</tr>
+<tr>
+<td class="day-cell">Wednesday</td>
+<td class="time-cell">7:15 – 8:45 PM</td>
+<td>90 min</td>
+<td><span class="class-tag class-blackbelt">Competition Sparring</span></td>
+<td>Master [Name]</td>
+<td class="spots-cell spots-limited">2 left</td>
+</tr>
+<tr>
+<td class="day-cell">Saturday</td>
+<td class="time-cell">10:30 AM – 12:00 PM</td>
+<td>90 min</td>
+<td><span class="class-tag class-blackbelt">Dan Preparation</span></td>
+<td>Master [Name]</td>
+<td class="spots-cell spots-limited">2 left</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sched-notes">
+<div class="sched-note">⚠️ Invitation required — speak with Master [Name]</div>
+<div class="sched-note">✅ Includes national competition preparation</div>
+<div class="sched-note">✅ Junior instructor pathway available</div>
+<div class="sched-note">✅ Private mentoring sessions included</div>
+</div>
+</div>
 </section>
 
 <script>
 function showTab(id) {
-  document.querySelectorAll('.sched-panel').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.sched-tab').forEach(t => {
-    t.classList.remove('active');
-    t.setAttribute('aria-selected', 'false');
-  });
-  document.getElementById('tab-' + id).classList.add('active');
-  event.currentTarget.classList.add('active');
-  event.currentTarget.setAttribute('aria-selected', 'true');
+document.querySelectorAll('.sched-panel').forEach(p => p.classList.remove('active'));
+document.querySelectorAll('.sched-tab').forEach(t => {
+t.classList.remove('active');
+t.setAttribute('aria-selected', 'false');
+});
+document.getElementById('tab-' + id).classList.add('active');
+event.currentTarget.classList.add('active');
+event.currentTarget.setAttribute('aria-selected', 'true');
 }
 </script>
 
-<!-- ════════════════════════════════════════════
-     AT-A-GLANCE OVERVIEW TABLE (full week)
-     ════════════════════════════════════════════ -->
 <section class="section-block section-dark">
-  <h2 class="section-title">At-a-Glance Overview</h2>
-  <p class="section-subtitle">Full week, all programs. Scroll horizontally on mobile.</p>
+<h2 class="section-title">At-a-Glance Overview</h2>
+<p class="section-subtitle">Full week, all programs. Scroll horizontally on mobile.</p>
 
-  <div class="schedule-table-wrapper">
-    <table class="schedule-table overview-table">
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Mon</th>
-          <th>Tue</th>
-          <th>Wed</th>
-          <th>Thu</th>
-          <th>Fri</th>
-          <th>Sat</th>
-          <th>Sun</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="time-cell">9:00 AM</td>
-          <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
-          <td class="class-cell class-kids">Juniors</td>
-          <td class="class-cell class-adult">Teen/Adult</td>
-        </tr>
-        <tr>
-          <td class="time-cell">10:00 AM</td>
-          <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
-          <td class="class-cell class-tigers">Little Tigers</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td class="time-cell">10:30 AM</td>
-          <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
-          <td class="class-cell class-blackbelt">Black Belt</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td class="time-cell">4:00 PM</td>
-          <td class="class-cell class-tigers">Little Tigers</td>
-          <td>—</td>
-          <td class="class-cell class-tigers">Little Tigers</td>
-          <td>—</td>
-          <td class="class-cell class-tigers">Little Tigers</td>
-          <td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="time-cell">5:00 PM</td>
-          <td class="class-cell class-kids">Juniors</td>
-          <td class="class-cell class-kids">Juniors</td>
-          <td class="class-cell class-kids">Juniors</td>
-          <td class="class-cell class-kids">Juniors</td>
-          <td>—</td><td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="time-cell">6:00 PM</td>
-          <td class="class-cell class-adult">Teen/Adult</td>
-          <td>—</td>
-          <td class="class-cell class-adult">Teen/Adult</td>
-          <td>—</td>
-          <td class="class-cell class-adult">Teen/Adult</td>
-          <td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="time-cell">7:15 PM</td>
-          <td class="class-cell class-blackbelt">Black Belt</td>
-          <td>—</td>
-          <td class="class-cell class-blackbelt">Black Belt</td>
-          <td>—</td><td>—</td><td>—</td><td>—</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+<div class="schedule-table-wrapper">
+<table class="schedule-table overview-table">
+<thead>
+<tr>
+<th>Time</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+<th>Sun</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="time-cell">9:00 AM</td>
+<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
+<td class="class-cell class-kids">Juniors</td>
+<td class="class-cell class-adult">Teen/Adult</td>
+</tr>
+<tr>
+<td class="time-cell">10:00 AM</td>
+<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
+<td class="class-cell class-tigers">Little Tigers</td>
+<td>—</td>
+</tr>
+<tr>
+<td class="time-cell">10:30 AM</td>
+<td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>
+<td class="class-cell class-blackbelt">Black Belt</td>
+<td>—</td>
+</tr>
+<tr>
+<td class="time-cell">4:00 PM</td>
+<td class="class-cell class-tigers">Little Tigers</td>
+<td>—</td>
+<td class="class-cell class-tigers">Little Tigers</td>
+<td>—</td>
+<td class="class-cell class-tigers">Little Tigers</td>
+<td>—</td><td>—</td>
+</tr>
+<tr>
+<td class="time-cell">5:00 PM</td>
+<td class="class-cell class-kids">Juniors</td>
+<td class="class-cell class-kids">Juniors</td>
+<td class="class-cell class-kids">Juniors</td>
+<td class="class-cell class-kids">Juniors</td>
+<td>—</td><td>—</td><td>—</td>
+</tr>
+<tr>
+<td class="time-cell">6:00 PM</td>
+<td class="class-cell class-adult">Teen/Adult</td>
+<td>—</td>
+<td class="class-cell class-adult">Teen/Adult</td>
+<td>—</td>
+<td class="class-cell class-adult">Teen/Adult</td>
+<td>—</td><td>—</td>
+</tr>
+<tr>
+<td class="time-cell">7:15 PM</td>
+<td class="class-cell class-blackbelt">Black Belt</td>
+<td>—</td>
+<td class="class-cell class-blackbelt">Black Belt</td>
+<td>—</td><td>—</td><td>—</td><td>—</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-  <!-- Legend -->
-  <div class="schedule-legend">
-    <span class="legend-item"><span class="legend-dot legend-tigers"></span>Little Tigers (4–7)</span>
-    <span class="legend-item"><span class="legend-dot legend-kids"></span>Junior Champions (8–14)</span>
-    <span class="legend-item"><span class="legend-dot legend-adult"></span>Teen &amp; Adult (15+)</span>
-    <span class="legend-item"><span class="legend-dot legend-blackbelt"></span>Black Belt Program</span>
-  </div>
+<div class="schedule-legend">
+<span class="legend-item"><span class="legend-dot legend-tigers"></span>Little Tigers (4–7)</span>
+<span class="legend-item"><span class="legend-dot legend-kids"></span>Junior Champions (8–14)</span>
+<span class="legend-item"><span class="legend-dot legend-adult"></span>Teen &amp; Adult (15+)</span>
+<span class="legend-item"><span class="legend-dot legend-blackbelt"></span>Black Belt Program</span>
+</div>
 </section>
 
-<!-- ════════════════════════════════════════════
-     SPECIAL SESSIONS
-     ════════════════════════════════════════════ -->
 <section class="section-block">
-  <h2 class="section-title">Special Sessions &amp; Events</h2>
+<h2 class="section-title">Special Sessions &amp; Events</h2>
 
-  <div class="special-sessions-grid">
+<div class="special-sessions-grid">
 
-    <div class="special-session-card">
-      <div class="ss-icon">🛡️</div>
-      <div class="ss-body">
-        <h3>Self-Defense Workshop</h3>
-        <p class="ss-when">📅 First Saturday of every month · 11:00 AM – 1:00 PM</p>
-        <p>Practical self-defense for ages 12+. Included in membership or $[X] drop-in. No prior experience needed.</p>
-        <a href="/taekwondo-academy/programs/#self-defense" class="card-link">Learn More →</a>
-      </div>
-    </div>
+<div class="special-session-card">
+<div class="ss-icon">🛡️</div>
+<div class="ss-body">
+<h3>Self-Defense Workshop</h3>
+<p class="ss-when">📅 First Saturday of every month · 11:00 AM – 1:00 PM</p>
+<p>Practical self-defense for ages 12+. Included in membership or $[X] drop-in. No prior experience needed.</p>
+<a href="/taekwondo-academy/programs/#self-defense" class="card-link">Learn More →</a>
+</div>
+</div>
 
-    <div class="special-session-card">
-      <div class="ss-icon">🏫</div>
-      <div class="ss-body">
-        <h3>School Holiday Camps</h3>
-        <p class="ss-when">📅 Every school holiday break · Full-day &amp; Half-day options</p>
-        <p>Intensive training camps with games, drills, sparring, and breaking. Ages 6–16. Limited spots — register early.</p>
-        <a href="/taekwondo-academy/contact/" class="card-link">Get Notified →</a>
-      </div>
-    </div>
+<div class="special-session-card">
+<div class="ss-icon">🏫</div>
+<div class="ss-body">
+<h3>School Holiday Camps</h3>
+<p class="ss-when">📅 Every school holiday break · Full-day &amp; Half-day options</p>
+<p>Intensive training camps with games, drills, sparring, and breaking. Ages 6–16. Limited spots — register early.</p>
+<a href="/taekwondo-academy/contact/" class="card-link">Get Notified →</a>
+</div>
+</div>
 
-    <div class="special-session-card">
-      <div class="ss-icon">👤</div>
-      <div class="ss-body">
-        <h3>Private Lessons</h3>
-        <p class="ss-when">📅 By appointment · 30 or 60 minute sessions</p>
-        <p>One-on-one coaching for accelerated progress, grading prep, or competition training. All ages and levels.</p>
-        <a href="/taekwondo-academy/contact/" class="card-link">Book Now →</a>
-      </div>
-    </div>
+<div class="special-session-card">
+<div class="ss-icon">👤</div>
+<div class="ss-body">
+<h3>Private Lessons</h3>
+<p class="ss-when">📅 By appointment · 30 or 60 minute sessions</p>
+<p>One-on-one coaching for accelerated progress, grading prep, or competition training. All ages and levels.</p>
+<a href="/taekwondo-academy/contact/" class="card-link">Book Now →</a>
+</div>
+</div>
 
-    <div class="special-session-card">
-      <div class="ss-icon">🎂</div>
-      <div class="ss-body">
-        <h3>Birthday Packages</h3>
-        <p class="ss-when">📅 Weekends by booking · 2-hour experience</p>
-        <p>Celebrate your birthday with a private Taekwondo session, board breaks, and a certificate. Ages 5+.</p>
-        <a href="/taekwondo-academy/contact/" class="card-link">Enquire →</a>
-      </div>
-    </div>
+<div class="special-session-card">
+<div class="ss-icon">🎂</div>
+<div class="ss-body">
+<h3>Birthday Packages</h3>
+<p class="ss-when">📅 Weekends by booking · 2-hour experience</p>
+<p>Celebrate your birthday with a private Taekwondo session, board breaks, and a certificate. Ages 5+.</p>
+<a href="/taekwondo-academy/contact/" class="card-link">Enquire →</a>
+</div>
+</div>
 
-  </div>
+</div>
 </section>
 
-<!-- ════════════════════════════════════════════
-     BELT GRADING SCHEDULE
-     ════════════════════════════════════════════ -->
 <section class="section-block section-dark">
-  <h2 class="section-title">Belt Grading Calendar</h2>
-  <p class="section-subtitle">Gradings held every 3 months. Your instructor will notify you when you're eligible.</p>
+<h2 class="section-title">Belt Grading Calendar</h2>
+<p class="section-subtitle">Gradings held every 3 months. Your instructor will notify you when you're eligible.</p>
 
-  <div class="grading-grid">
+<div class="grading-grid">
 
-    <div class="grading-card">
-      <div class="grading-belt-strip" style="background: linear-gradient(90deg, #fff 50%, #f5c518 50%)"></div>
-      <div class="grading-card-body">
-        <h4>White → Yellow Belt</h4>
-        <p class="grading-date-main">📅 [Month DD, YYYY]</p>
-        <p class="grading-time">10:00 AM – 12:00 PM</p>
-        <ul>
-          <li>All ages welcome</li>
-          <li>Attendance: min. 20 classes</li>
-          <li>Fee: $[X] per student</li>
-        </ul>
-      </div>
-    </div>
+<div class="grading-card">
+<div class="grading-belt-strip" style="background: linear-gradient(90deg, #fff 50%, #f5c518 50%)"></div>
+<div class="grading-card-body">
+<h4>White → Yellow Belt</h4>
+<p class="grading-date-main">📅 [Month DD, YYYY]</p>
+<p class="grading-time">10:00 AM – 12:00 PM</p>
+<ul>
+<li>All ages welcome</li>
+<li>Attendance: min. 20 classes</li>
+<li>Fee: $[X] per student</li>
+</ul>
+</div>
+</div>
 
-    <div class="grading-card">
-      <div class="grading-belt-strip" style="background: linear-gradient(90deg, #f5c518 50%, #4caf50 50%)"></div>
-      <div class="grading-card-body">
-        <h4>Yellow → Green Belt</h4>
-        <p class="grading-date-main">📅 [Month DD, YYYY]</p>
-        <p class="grading-time">10:00 AM – 1:00 PM</p>
-        <ul>
-          <li>All ages welcome</li>
-          <li>Attendance: min. 24 classes</li>
-          <li>Fee: $[X] per student</li>
-        </ul>
-      </div>
-    </div>
+<div class="grading-card">
+<div class="grading-belt-strip" style="background: linear-gradient(90deg, #f5c518 50%, #4caf50 50%)"></div>
+<div class="grading-card-body">
+<h4>Yellow → Green Belt</h4>
+<p class="grading-date-main">📅 [Month DD, YYYY]</p>
+<p class="grading-time">10:00 AM – 1:00 PM</p>
+<ul>
+<li>All ages welcome</li>
+<li>Attendance: min. 24 classes</li>
+<li>Fee: $[X] per student</li>
+</ul>
+</div>
+</div>
 
-    <div class="grading-card">
-      <div class="grading-belt-strip" style="background: linear-gradient(90deg, #4caf50 50%, #2196f3 50%)"></div>
-      <div class="grading-card-body">
-        <h4>Green → Blue Belt</h4>
-        <p class="grading-date-main">📅 [Month DD, YYYY]</p>
-        <p class="grading-time">10:00 AM – 1:00 PM</p>
-        <ul>
-          <li>All ages welcome</li>
-          <li>Attendance: min. 28 classes</li>
-          <li>Fee: $[X] per student</li>
-        </ul>
-      </div>
-    </div>
+<div class="grading-card">
+<div class="grading-belt-strip" style="background: linear-gradient(90deg, #4caf50 50%, #2196f3 50%)"></div>
+<div class="grading-card-body">
+<h4>Green → Blue Belt</h4>
+<p class="grading-date-main">📅 [Month DD, YYYY]</p>
+<p class="grading-time">10:00 AM – 1:00 PM</p>
+<ul>
+<li>All ages welcome</li>
+<li>Attendance: min. 28 classes</li>
+<li>Fee: $[X] per student</li>
+</ul>
+</div>
+</div>
 
-    <div class="grading-card grading-dan">
-      <div class="grading-belt-strip" style="background: linear-gradient(90deg, #c0392b 40%, #111 40%)"></div>
-      <div class="grading-card-body">
-        <h4>Dan Grading — Black Belt</h4>
-        <p class="grading-date-main">📅 [Month DD, YYYY]</p>
-        <p class="grading-time">9:00 AM – 5:00 PM</p>
-        <ul>
-          <li>Red/Black belt candidates only</li>
-          <li>Panel of external examiners</li>
-          <li>Families invited to attend</li>
-        </ul>
-      </div>
-    </div>
+<div class="grading-card grading-dan">
+<div class="grading-belt-strip" style="background: linear-gradient(90deg, #c0392b 40%, #111 40%)"></div>
+<div class="grading-card-body">
+<h4>Dan Grading — Black Belt</h4>
+<p class="grading-date-main">📅 [Month DD, YYYY]</p>
+<p class="grading-time">9:00 AM – 5:00 PM</p>
+<ul>
+<li>Red/Black belt candidates only</li>
+<li>Panel of external examiners</li>
+<li>Families invited to attend</li>
+</ul>
+</div>
+</div>
 
-  </div>
+</div>
 
-  <div class="grading-notice">
-    <strong>📋 Grading Requirements:</strong> Students must meet minimum class attendance, demonstrate all required techniques, and receive instructor approval. Speak with your instructor at least 4 weeks before grading day.
-  </div>
+<div class="grading-notice">
+<strong>📋 Grading Requirements:</strong> Students must meet minimum class attendance, demonstrate all required techniques, and receive instructor approval. Speak with your instructor at least 4 weeks before grading day.
+</div>
 </section>
 
-<!-- ════════════════════════════════════════════
-     TRIAL CLASS INFO
-     ════════════════════════════════════════════ -->
 <section class="section-block">
-  <h2 class="section-title">What to Expect at Your First Class</h2>
+<h2 class="section-title">What to Expect at Your First Class</h2>
 
-  <div class="trial-steps">
-    <div class="trial-step">
-      <div class="trial-num">1</div>
-      <div class="trial-content">
-        <h4>Book Your Spot</h4>
-        <p>Call us, fill in the contact form, or just walk in during any class time. We'll confirm the best class for your age and level.</p>
-      </div>
-    </div>
-    <div class="trial-step">
-      <div class="trial-num">2</div>
-      <div class="trial-content">
-        <h4>Arrive 10 Minutes Early</h4>
-        <p>Come in comfortable sportswear — tracksuit, shorts, t-shirt. No shoes needed on the mat. Bring a water bottle.</p>
-      </div>
-    </div>
-    <div class="trial-step">
-      <div class="trial-num">3</div>
-      <div class="trial-content">
-        <h4>Meet Your Instructor</h4>
-        <p>Your instructor will introduce you to the class, explain the etiquette, and ensure you feel comfortable from the very first bow.</p>
-      </div>
-    </div>
-    <div class="trial-step">
-      <div class="trial-num">4</div>
-      <div class="trial-content">
-        <h4>Train &amp; Decide</h4>
-        <p>Join in, have fun, and take your time deciding. There is absolutely no pressure to enroll on the day.</p>
-      </div>
-    </div>
-  </div>
+<div class="trial-steps">
+<div class="trial-step">
+<div class="trial-num">1</div>
+<div class="trial-content">
+<h4>Book Your Spot</h4>
+<p>Call us, fill in the contact form, or just walk in during any class time. We'll confirm the best class for your age and level.</p>
+</div>
+</div>
+<div class="trial-step">
+<div class="trial-num">2</div>
+<div class="trial-content">
+<h4>Arrive 10 Minutes Early</h4>
+<p>Come in comfortable sportswear — tracksuit, shorts, t-shirt. No shoes needed on the mat. Bring a water bottle.</p>
+</div>
+</div>
+<div class="trial-step">
+<div class="trial-num">3</div>
+<div class="trial-content">
+<h4>Meet Your Instructor</h4>
+<p>Your instructor will introduce you to the class, explain the etiquette, and ensure you feel comfortable from the very first bow.</p>
+</div>
+</div>
+<div class="trial-step">
+<div class="trial-num">4</div>
+<div class="trial-content">
+<h4>Train &amp; Decide</h4>
+<p>Join in, have fun, and take your time deciding. There is absolutely no pressure to enroll on the day.</p>
+</div>
+</div>
+</div>
 </section>
 
-<!-- ════════════════════════════════════════════
-     CTA
-     ════════════════════════════════════════════ -->
 <section class="cta-banner">
-  <h2>Reserve Your Free Trial Class</h2>
-  <p>Pick any class above — your first session is completely free, with no commitment.</p>
-  <div class="cta-buttons">
-    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book Now — It's Free</a>
-    <a href="/taekwondo-academy/programs/" class="btn-secondary btn-large">View All Programs</a>
-  </div>
+<h2>Reserve Your Free Trial Class</h2>
+<p>Pick any class above — your first session is completely free, with no commitment.</p>
+<div class="cta-buttons">
+<a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book Now — It's Free</a>
+<a href="/taekwondo-academy/programs/" class="btn-secondary btn-large">View All Programs</a>
+</div>
 </section>
