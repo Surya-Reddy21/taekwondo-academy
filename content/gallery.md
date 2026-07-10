@@ -1,142 +1,438 @@
 ---
 title: "Gallery"
-description: "See our students in action — training, competing, and achieving their goals at Sai Sports Unit Academy."
+description: "See Sai Sports Unit Academy students in action — training, competing, earning belts, and celebrating together."
 draft: false
 ---
 
 <section class="page-hero">
   <h1>Gallery</h1>
-  <p>Moments of dedication, discipline, and victory — captured on the mat.</p>
+  <p>Discipline captured on the mat. Victory celebrated off it.<br>Every photo tells a story of hard work and heart.</p>
 </section>
 
-<!-- ═══════════════════════════════════════════
-     ADDING PHOTOS — INSTRUCTIONS
-     Replace the placeholder divs below with real <img> tags.
-     Store photos in: static/images/gallery/
+<!-- ════════════════════════════════════════════
+     HOW TO ADD YOUR PHOTOS
+     ════════════════════════════════════════════
+     1. Place images in:  static/images/gallery/
+     2. Naming convention:
+          training-01.jpg, training-02.jpg ...
+          competition-01.jpg ...
+          grading-01.jpg ...
+          events-01.jpg ...
+     3. Recommended size: 900×675px (4:3) or 1200×800px (3:2)
+        JPG quality 80 keeps files small without visible loss.
+     4. Replace <div class="gallery-placeholder"> blocks with:
+          <img src="/taekwondo-academy/images/gallery/YOUR-FILE.jpg"
+               alt="Descriptive caption here"
+               loading="lazy"
+               class="gallery-img">
+     5. Update the <figcaption> text for each photo.
+     ════════════════════════════════════════════ -->
 
-     Example:
-       <img src="/images/gallery/training-01.jpg" alt="Students sparring" loading="lazy">
+<!-- ════════════════════════════════════════════
+     CATEGORY FILTER TABS
+     ════════════════════════════════════════════ -->
+<div class="gallery-filter-bar">
+  <button class="gallery-filter active" data-filter="all">All Photos</button>
+  <button class="gallery-filter" data-filter="training">🥋 Training</button>
+  <button class="gallery-filter" data-filter="competition">🏆 Competitions</button>
+  <button class="gallery-filter" data-filter="grading">🎖️ Belt Tests</button>
+  <button class="gallery-filter" data-filter="events">🎉 Events</button>
+</div>
 
-     Recommended sizes: 800×600px or 1200×900px, JPG quality 80
-     ═══════════════════════════════════════════ -->
+<!-- ════════════════════════════════════════════
+     MASONRY PHOTO GRID
+     ════════════════════════════════════════════ -->
+<section class="section-block gallery-section">
 
-<!-- ─── TRAINING ─── -->
-<section class="section-block">
-  <h2 class="section-title">Training Sessions</h2>
+  <div class="masonry-grid" id="galleryGrid">
 
-  <div class="gallery-grid">
-    <div class="gallery-item">
-      <div class="gallery-placeholder">📸 Training Photo 1<br><small><code>static/images/gallery/training-01.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">📸 Training Photo 2<br><small><code>static/images/gallery/training-02.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">📸 Training Photo 3<br><small><code>static/images/gallery/training-03.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">📸 Training Photo 4<br><small><code>static/images/gallery/training-04.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">📸 Training Photo 5<br><small><code>static/images/gallery/training-05.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">📸 Training Photo 6<br><small><code>static/images/gallery/training-06.jpg</code></small></div>
-    </div>
-  </div>
+    <!-- ─────────────────────────
+         TRAINING PHOTOS
+         Replace gallery-placeholder divs with real <img> tags.
+         ───────────────────────── -->
+    <figure class="masonry-item" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-01.jpg" alt="Students practicing high kicks during evening class" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — High Kick Drill
+        <small>training-01.jpg</small>
+      </div>
+      <figcaption>High kick drill — Monday evening class</figcaption>
+    </figure>
+
+    <figure class="masonry-item masonry-tall" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-02.jpg" alt="Instructor demonstrating spinning kick technique" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — Instructor Demo
+        <small>training-02.jpg</small>
+      </div>
+      <figcaption>Master [Name] demonstrating a spinning heel kick</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-03.jpg" alt="Junior class poomsae practice" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — Poomsae Practice
+        <small>training-03.jpg</small>
+      </div>
+      <figcaption>Junior Champions — Taegeuk Il Jang poomsae</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-04.jpg" alt="Sparring session with full protective gear" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — Sparring Session
+        <small>training-04.jpg</small>
+      </div>
+      <figcaption>Friday sparring — Teen &amp; Adult class</figcaption>
+    </figure>
+
+    <figure class="masonry-item masonry-wide" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-05.jpg" alt="Full class lined up in formation" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — Class Formation
+        <small>training-05.jpg</small>
+      </div>
+      <figcaption>Full academy lineup — Saturday morning class</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-06.jpg" alt="Little Tigers kids class doing basic kicks" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — Little Tigers
+        <small>training-06.jpg</small>
+      </div>
+      <figcaption>Little Tigers learning front kick — Wednesday 4PM class</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-07.jpg" alt="Board breaking demonstration" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — Board Breaking
+        <small>training-07.jpg</small>
+      </div>
+      <figcaption>Board breaking practice — speed and focus technique</figcaption>
+    </figure>
+
+    <figure class="masonry-item masonry-tall" data-category="training">
+      <!-- <img src="/taekwondo-academy/images/gallery/training-08.jpg" alt="One-on-one private coaching session" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        📸 Training — Private Lesson
+        <small>training-08.jpg</small>
+      </div>
+      <figcaption>Private coaching — pre-grading technique refinement</figcaption>
+    </figure>
+
+    <!-- ─────────────────────────
+         COMPETITION PHOTOS
+         ───────────────────────── -->
+    <figure class="masonry-item masonry-wide" data-category="competition">
+      <!-- <img src="/taekwondo-academy/images/gallery/competition-01.jpg" alt="Team photo at state championship" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🏆 Competition — State Championship Team
+        <small>competition-01.jpg</small>
+      </div>
+      <figcaption>[State] Taekwondo Championships — our team of [N] competitors</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="competition">
+      <!-- <img src="/taekwondo-academy/images/gallery/competition-02.jpg" alt="Gold medal presentation on podium" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🏆 Competition — Gold Medal
+        <small>competition-02.jpg</small>
+      </div>
+      <figcaption>[Student Name] — Gold medal, Poomsae Under-14 category</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="competition">
+      <!-- <img src="/taekwondo-academy/images/gallery/competition-03.jpg" alt="Dynamic sparring action shot at tournament" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🏆 Competition — Sparring Final
+        <small>competition-03.jpg</small>
+      </div>
+      <figcaption>Sparring final — [Year] Regional Open Tournament</figcaption>
+    </figure>
+
+    <figure class="masonry-item masonry-tall" data-category="competition">
+      <!-- <img src="/taekwondo-academy/images/gallery/competition-04.jpg" alt="Athlete performing poomsae at national level" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🏆 Competition — National Poomsae
+        <small>competition-04.jpg</small>
+      </div>
+      <figcaption>[Student Name] performing Koryo — National Championships [Year]</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="competition">
+      <!-- <img src="/taekwondo-academy/images/gallery/competition-05.jpg" alt="Coaches and students celebrating medals" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🏆 Competition — Medal Celebration
+        <small>competition-05.jpg</small>
+      </div>
+      <figcaption>Post-competition celebration — [N] medals from [N] competitors</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="competition">
+      <!-- <img src="/taekwondo-academy/images/gallery/competition-06.jpg" alt="Young athlete receiving trophy" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🏆 Competition — Trophy Presentation
+        <small>competition-06.jpg</small>
+      </div>
+      <figcaption>First place — Junior Sparring, [City] Open [Year]</figcaption>
+    </figure>
+
+    <!-- ─────────────────────────
+         BELT GRADING PHOTOS
+         ───────────────────────── -->
+    <figure class="masonry-item masonry-wide" data-category="grading">
+      <!-- <img src="/taekwondo-academy/images/gallery/grading-01.jpg" alt="Group photo of all students who graded" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎖️ Grading — Group Photo
+        <small>grading-01.jpg</small>
+      </div>
+      <figcaption>[Month Year] Belt Grading — [N] students promoted</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="grading">
+      <!-- <img src="/taekwondo-academy/images/gallery/grading-02.jpg" alt="Child receiving new belt from instructor" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎖️ Grading — Belt Ceremony
+        <small>grading-02.jpg</small>
+      </div>
+      <figcaption>[Student Name] receives Green belt — [Month Year]</figcaption>
+    </figure>
+
+    <figure class="masonry-item masonry-tall" data-category="grading">
+      <!-- <img src="/taekwondo-academy/images/gallery/grading-03.jpg" alt="Black belt dan grading ceremony" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎖️ Grading — Black Belt Dan
+        <small>grading-03.jpg</small>
+      </div>
+      <figcaption>[Student Name] — 1st Dan Black Belt ceremony · [Year]</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="grading">
+      <!-- <img src="/taekwondo-academy/images/gallery/grading-04.jpg" alt="Student performing poomsae during grading" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎖️ Grading — Poomsae Performance
+        <small>grading-04.jpg</small>
+      </div>
+      <figcaption>Blue belt grading — poomsae assessment in front of panel</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="grading">
+      <!-- <img src="/taekwondo-academy/images/gallery/grading-05.jpg" alt="Board breaking during red belt grading" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎖️ Grading — Board Break
+        <small>grading-05.jpg</small>
+      </div>
+      <figcaption>Red belt candidate — flying side kick board break</figcaption>
+    </figure>
+
+    <!-- ─────────────────────────
+         ACADEMY EVENTS
+         ───────────────────────── -->
+    <figure class="masonry-item masonry-wide" data-category="events">
+      <!-- <img src="/taekwondo-academy/images/gallery/events-01.jpg" alt="Academy anniversary celebration group photo" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎉 Events — Academy Anniversary
+        <small>events-01.jpg</small>
+      </div>
+      <figcaption>[N]th Academy Anniversary — the whole Sai Sports Unit family</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="events">
+      <!-- <img src="/taekwondo-academy/images/gallery/events-02.jpg" alt="Holiday camp students training together" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎉 Events — Holiday Camp
+        <small>events-02.jpg</small>
+      </div>
+      <figcaption>Summer Holiday Intensive Camp — [Year]</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="events">
+      <!-- <img src="/taekwondo-academy/images/gallery/events-03.jpg" alt="Demo performance at local school" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎉 Events — School Demo
+        <small>events-03.jpg</small>
+      </div>
+      <figcaption>Demonstration at [School Name] — community outreach</figcaption>
+    </figure>
+
+    <figure class="masonry-item masonry-tall" data-category="events">
+      <!-- <img src="/taekwondo-academy/images/gallery/events-04.jpg" alt="Year-end awards ceremony" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎉 Events — Awards Night
+        <small>events-04.jpg</small>
+      </div>
+      <figcaption>End-of-Year Awards Night — celebrating every student's journey</figcaption>
+    </figure>
+
+    <figure class="masonry-item" data-category="events">
+      <!-- <img src="/taekwondo-academy/images/gallery/events-05.jpg" alt="Students and families at charity event" loading="lazy" class="gallery-img"> -->
+      <div class="gallery-placeholder">
+        🎉 Events — Charity Day
+        <small>events-05.jpg</small>
+      </div>
+      <figcaption>Charity fundraiser sparring day — [Organization] [Year]</figcaption>
+    </figure>
+
+  </div><!-- /masonry-grid -->
 </section>
 
-<!-- ─── COMPETITIONS ─── -->
-<section class="section-block section-dark">
-  <h2 class="section-title">Competitions & Tournaments</h2>
+<!-- Gallery filter + lightbox JS -->
+<script>
+(function () {
+  /* ── Category Filter ── */
+  const filters = document.querySelectorAll('.gallery-filter');
+  const items   = document.querySelectorAll('.masonry-item');
 
-  <div class="gallery-grid">
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🏆 Competition Photo 1<br><small><code>static/images/gallery/competition-01.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🏆 Competition Photo 2<br><small><code>static/images/gallery/competition-02.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🏆 Competition Photo 3<br><small><code>static/images/gallery/competition-03.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🏆 Competition Photo 4<br><small><code>static/images/gallery/competition-04.jpg</code></small></div>
-    </div>
-  </div>
-</section>
+  filters.forEach(btn => {
+    btn.addEventListener('click', function () {
+      filters.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      const cat = this.dataset.filter;
+      items.forEach(item => {
+        if (cat === 'all' || item.dataset.category === cat) {
+          item.style.display = '';
+          item.style.animation = 'fadeIn 0.3s ease';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
 
-<!-- ─── BELT GRADINGS ─── -->
-<section class="section-block">
-  <h2 class="section-title">Belt Gradings</h2>
+  /* ── Lightweight Lightbox ── */
+  const overlay = document.createElement('div');
+  overlay.id = 'gallery-overlay';
+  overlay.innerHTML = `
+    <div id="gallery-overlay-inner">
+      <button id="gallery-close" aria-label="Close">&times;</button>
+      <img id="gallery-overlay-img" src="" alt="">
+      <p id="gallery-overlay-caption"></p>
+      <button id="gallery-prev" aria-label="Previous">&#8592;</button>
+      <button id="gallery-next" aria-label="Next">&#8594;</button>
+    </div>`;
+  document.body.appendChild(overlay);
 
-  <div class="gallery-grid">
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🥋 Grading Photo 1<br><small><code>static/images/gallery/grading-01.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🥋 Grading Photo 2<br><small><code>static/images/gallery/grading-02.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🥋 Grading Photo 3<br><small><code>static/images/gallery/grading-03.jpg</code></small></div>
-    </div>
-    <div class="gallery-item">
-      <div class="gallery-placeholder">🥋 Grading Photo 4<br><small><code>static/images/gallery/grading-04.jpg</code></small></div>
-    </div>
-  </div>
-</section>
+  let visibleItems = [];
+  let currentIdx  = 0;
 
-<!-- ─── VIDEO HIGHLIGHTS ─── -->
+  function getVisible() {
+    return Array.from(items).filter(i => i.style.display !== 'none' && i.querySelector('img'));
+  }
+
+  function openLightbox(idx) {
+    visibleItems = getVisible();
+    if (!visibleItems.length) return;
+    currentIdx = idx;
+    const fig = visibleItems[currentIdx];
+    const img = fig.querySelector('img');
+    const cap = fig.querySelector('figcaption');
+    document.getElementById('gallery-overlay-img').src = img.src;
+    document.getElementById('gallery-overlay-img').alt = img.alt;
+    document.getElementById('gallery-overlay-caption').textContent = cap ? cap.textContent : '';
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function navigate(dir) {
+    visibleItems = getVisible();
+    currentIdx = (currentIdx + dir + visibleItems.length) % visibleItems.length;
+    const fig = visibleItems[currentIdx];
+    const img = fig.querySelector('img');
+    const cap = fig.querySelector('figcaption');
+    document.getElementById('gallery-overlay-img').src = img.src;
+    document.getElementById('gallery-overlay-img').alt = img.alt;
+    document.getElementById('gallery-overlay-caption').textContent = cap ? cap.textContent : '';
+  }
+
+  items.forEach((fig, i) => {
+    const img = fig.querySelector('img');
+    if (img) {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', () => {
+        const vis = getVisible();
+        openLightbox(vis.indexOf(fig));
+      });
+    }
+  });
+
+  document.getElementById('gallery-close').addEventListener('click', closeLightbox);
+  document.getElementById('gallery-prev').addEventListener('click', () => navigate(-1));
+  document.getElementById('gallery-next').addEventListener('click', () => navigate(1));
+  overlay.addEventListener('click', e => { if (e.target === overlay) closeLightbox(); });
+  document.addEventListener('keydown', e => {
+    if (!overlay.classList.contains('active')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft')  navigate(-1);
+    if (e.key === 'ArrowRight') navigate(1);
+  });
+})();
+</script>
+
+<!-- ════════════════════════════════════════════
+     VIDEO HIGHLIGHTS
+     ════════════════════════════════════════════ -->
 <section class="section-block section-dark">
   <h2 class="section-title">Video Highlights</h2>
-  <p class="section-subtitle">Watch our students in action. Replace the video IDs below with your actual YouTube videos.</p>
+  <p class="section-subtitle">Watch our students in action. Replace the video IDs with your actual YouTube video IDs.</p>
 
   <div class="video-grid">
-    <div class="video-wrapper">
-      <!-- Replace VIDEO_ID_1 with your actual YouTube ID -->
-      <iframe
-        src="https://www.youtube.com/embed/VIDEO_ID_1?rel=0&modestbranding=1"
-        title="Training Highlights — Sai Sports Unit Academy"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        loading="lazy">
-      </iframe>
+    <div>
+      <div class="video-wrapper">
+        <!-- Replace VIDEO_ID_1 with your YouTube ID, e.g. dQw4w9WgXcQ -->
+        <iframe
+          src="https://www.youtube.com/embed/VIDEO_ID_1?rel=0&modestbranding=1"
+          title="Training Highlights — Sai Sports Unit Academy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen loading="lazy">
+        </iframe>
+      </div>
+      <p class="video-caption">Training Highlights — [Month Year]</p>
     </div>
-    <div class="video-wrapper">
-      <!-- Replace VIDEO_ID_2 with your actual YouTube ID -->
-      <iframe
-        src="https://www.youtube.com/embed/VIDEO_ID_2?rel=0&modestbranding=1"
-        title="Competition Highlights — Sai Sports Unit Academy"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        loading="lazy">
-      </iframe>
+    <div>
+      <div class="video-wrapper">
+        <!-- Replace VIDEO_ID_2 -->
+        <iframe
+          src="https://www.youtube.com/embed/VIDEO_ID_2?rel=0&modestbranding=1"
+          title="Competition Highlights — Sai Sports Unit Academy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen loading="lazy">
+        </iframe>
+      </div>
+      <p class="video-caption">Competition Highlights — [Year] Championships</p>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════
-     SOCIAL MEDIA FOLLOW
-     ═══════════════════════════════════════════ -->
+<!-- ════════════════════════════════════════════
+     SOCIAL FOLLOW
+     ════════════════════════════════════════════ -->
 <section class="section-block">
   <div class="social-follow-block">
-    <h2>Follow Our Journey</h2>
-    <p>See daily training moments, student achievements, and competition results on our social channels.</p>
+    <h2>Follow Our Daily Journey</h2>
+    <p>Daily training clips, student milestones, event coverage — all on our social channels.</p>
     <div class="social-follow-links">
-      <a href="https://instagram.com/yourpage" class="social-follow-btn" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
-      <a href="https://facebook.com/yourpage" class="social-follow-btn" target="_blank" rel="noopener noreferrer">👍 Facebook</a>
-      <a href="https://youtube.com/@yourchannel" class="social-follow-btn" target="_blank" rel="noopener noreferrer">▶️ YouTube</a>
+      <a href="https://instagram.com/yourpage" class="social-follow-btn" target="_blank" rel="noopener noreferrer">📸 @yourpage on Instagram</a>
+      <a href="https://facebook.com/yourpage" class="social-follow-btn" target="_blank" rel="noopener noreferrer">👍 Facebook Page</a>
+      <a href="https://youtube.com/@yourchannel" class="social-follow-btn" target="_blank" rel="noopener noreferrer">▶️ YouTube Channel</a>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════
+<!-- ════════════════════════════════════════════
      CTA
-     ═══════════════════════════════════════════ -->
+     ════════════════════════════════════════════ -->
 <section class="cta-banner">
-  <h2>Want to Be in the Next Gallery?</h2>
-  <p>Join us and start your journey today. Your first class is free.</p>
+  <h2>Your Photo Could Be Next</h2>
+  <p>Join Sai Sports Unit Academy and start your martial arts story today. First class is free.</p>
   <div class="cta-buttons">
-    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book a Free Trial</a>
+    <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book Your Free Trial</a>
+    <a href="/taekwondo-academy/schedule/" class="btn-secondary btn-large">View Schedule</a>
   </div>
 </section>
