@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://Sai-Sports-Unit.github.io/taekwondo-academy/sitemap.xml

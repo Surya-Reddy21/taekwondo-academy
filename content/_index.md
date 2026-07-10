@@ -1,18 +1,240 @@
 ---
-title: "Home"
+title: "Taekwondo Training | Sai Sports Unit Academy"
+description: "Premier Taekwondo training for kids, teens, and adults. Build discipline, confidence, and strength."
 draft: false
 ---
 
-# Welcome to Taekwondo Academy
+<!-- ═══════════════════════════════════════════
+     STATS BAR — quick social proof numbers
+     ═══════════════════════════════════════════ -->
+<section class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <span class="stat-number">15+</span>
+      <span class="stat-label">Years of Excellence</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">500+</span>
+      <span class="stat-label">Students Trained</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">50+</span>
+      <span class="stat-label">Black Belt Graduates</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">4.9★</span>
+      <span class="stat-label">Community Rating</span>
+    </div>
+  </div>
+</section>
 
-**Discipline. Respect. Excellence.**
+<!-- ═══════════════════════════════════════════
+     PROGRAMS OVERVIEW
+     ═══════════════════════════════════════════ -->
+<section class="section-block">
+  <h2 class="section-title">Training Programs for Every Level</h2>
+  <p class="section-subtitle">Whether your child is just starting out or you're pursuing a black belt, we have the right class for you.</p>
 
-We are a premier Taekwondo academy dedicated to building strong minds and bodies.
+  <div class="card-grid">
 
-## Our Programs
-- Kids Classes (4-12 years)
-- Teen & Adult Training
-- Black Belt Program
-- Private Lessons
+    <div class="program-card">
+      <div class="program-icon">🥋</div>
+      <h3>Little Tigers</h3>
+      <p class="program-age">Ages 4 – 7</p>
+      <p>Fun, structured classes that build coordination, listening skills, and self-confidence through age-appropriate Taekwondo basics.</p>
+      <a href="/programs/#little-tigers" class="card-link">Learn More →</a>
+    </div>
 
-[View Full Schedule](/schedule/) | [Contact Us](/contact/)
+    <div class="program-card">
+      <div class="program-icon">⚡</div>
+      <h3>Junior Champions</h3>
+      <p class="program-age">Ages 8 – 14</p>
+      <p>Focused belt progression with sparring, forms (poomsae), and character development. Tournament opportunities available.</p>
+      <a href="/programs/#junior-champions" class="card-link">Learn More →</a>
+    </div>
+
+    <div class="program-card">
+      <div class="program-icon">🔥</div>
+      <h3>Teen & Adult</h3>
+      <p class="program-age">Ages 15+</p>
+      <p>Serious training for motivated students. Technique, sparring, fitness, and a clear path from white belt to black belt.</p>
+      <a href="/programs/#teen-adult" class="card-link">Learn More →</a>
+    </div>
+
+    <div class="program-card">
+      <div class="program-icon">🏆</div>
+      <h3>Black Belt Program</h3>
+      <p class="program-age">All Ages</p>
+      <p>Our elite pathway for dedicated students. Advanced forms, leadership training, and preparation for national competitions.</p>
+      <a href="/programs/#black-belt" class="card-link">Learn More →</a>
+    </div>
+
+    <div class="program-card">
+      <div class="program-icon">🛡️</div>
+      <h3>Self-Defense</h3>
+      <p class="program-age">Ages 12+</p>
+      <p>Practical, real-world self-defense rooted in Taekwondo principles. Build awareness, confidence, and protective skills.</p>
+      <a href="/programs/#self-defense" class="card-link">Learn More →</a>
+    </div>
+
+    <div class="program-card">
+      <div class="program-icon">👤</div>
+      <h3>Private Lessons</h3>
+      <p class="program-age">All Ages</p>
+      <p>One-on-one coaching tailored to your exact goals — accelerated belt progression, competition prep, or personal fitness.</p>
+      <a href="/contact/" class="card-link">Book Now →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     WHY CHOOSE US
+     ═══════════════════════════════════════════ -->
+<section class="section-block section-dark">
+  <h2 class="section-title">Why Families Choose Sai Sports Unit</h2>
+
+  <div class="features-grid">
+
+    <div class="feature-item">
+      <span class="feature-icon">🎓</span>
+      <h4>World-Class Instructors</h4>
+      <p>Our certified black-belt instructors bring decades of competitive and teaching experience to every class.</p>
+    </div>
+
+    <div class="feature-item">
+      <span class="feature-icon">📈</span>
+      <h4>Structured Progression</h4>
+      <p>Clear belt curriculum with regular grading events so students and parents always know what to work toward.</p>
+    </div>
+
+    <div class="feature-item">
+      <span class="feature-icon">❤️</span>
+      <h4>Positive Environment</h4>
+      <p>We build martial artists AND great people. Respect, perseverance, and teamwork are core to everything we do.</p>
+    </div>
+
+    <div class="feature-item">
+      <span class="feature-icon">🏅</span>
+      <h4>Proven Results</h4>
+      <p>State, national, and international medal winners trained right here. Your champion journey starts on this mat.</p>
+    </div>
+
+    <div class="feature-item">
+      <span class="feature-icon">📅</span>
+      <h4>Flexible Scheduling</h4>
+      <p>Morning, evening, and weekend classes to fit busy family schedules. Make-up classes available.</p>
+    </div>
+
+    <div class="feature-item">
+      <span class="feature-icon">🆓</span>
+      <h4>Free Trial Class</h4>
+      <p>Not sure yet? Try us out — completely free, no commitment. See why hundreds of families call us home.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     VIDEO SECTION — replace src with your YouTube embed
+     ═══════════════════════════════════════════ -->
+<section class="section-block">
+  <h2 class="section-title">See Us in Action</h2>
+  <p class="section-subtitle">Watch our students train, compete, and grow.</p>
+
+  <div class="video-wrapper">
+    <!-- Replace YOUR_VIDEO_ID with your actual YouTube video ID -->
+    <iframe
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID?rel=0&modestbranding=1"
+      title="Sai Sports Unit Academy — Training Highlights"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     TESTIMONIALS
+     ═══════════════════════════════════════════ -->
+<section class="section-block section-dark">
+  <h2 class="section-title">What Parents & Students Say</h2>
+
+  <div class="testimonials-grid">
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p>"My daughter has been training here for 2 years. Her confidence has skyrocketed. The instructors are patient, motivating, and genuinely care about every child."</p>
+      <div class="testimonial-author">— Sarah M., Parent</div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p>"I joined as a complete beginner at 34 years old. Best decision I ever made. I'm now a green belt and training for competitions. The community here is incredible."</p>
+      <div class="testimonial-author">— James T., Adult Student</div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p>"Both my boys train here. The structured curriculum keeps them engaged and the instructors are amazing role models. We see the discipline carry over into school too."</p>
+      <div class="testimonial-author">— Priya K., Parent of 2</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CTA BANNER
+     ═══════════════════════════════════════════ -->
+<section class="cta-banner">
+  <h2>Ready to Start Your Journey?</h2>
+  <p>Your first class is on us — no experience needed, no commitment required.</p>
+  <div class="cta-buttons">
+    <a href="/contact/" class="btn-primary btn-large">Book Your Free Trial</a>
+    <a href="/schedule/" class="btn-secondary btn-large">View Schedule</a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     LOCAL BUSINESS SCHEMA — LocalBusiness / SportsActivityLocation
+     ═══════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Sai Sports Unit Academy",
+  "description": "Premier Taekwondo training for kids, teens, and adults. Build discipline, confidence, and strength.",
+  "url": "https://Sai-Sports-Unit.github.io/taekwondo-academy/",
+  "logo": "https://Sai-Sports-Unit.github.io/taekwondo-academy/images/logo.png",
+  "image": "https://Sai-Sports-Unit.github.io/taekwondo-academy/images/hero.jpg",
+  "telephone": "+1-000-000-0000",
+  "email": "info@youracademy.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main Street",
+    "addressLocality": "Your City",
+    "addressRegion": "ST",
+    "postalCode": "00000",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Wednesday", "Friday"],
+      "opens": "16:00",
+      "closes": "21:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00"
+    }
+  ],
+  "sameAs": [
+    "https://facebook.com/yourpage",
+    "https://instagram.com/yourpage",
+    "https://youtube.com/@yourchannel"
+  ]
+}
+</script>

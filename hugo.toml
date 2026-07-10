@@ -1,40 +1,140 @@
 baseURL = "https://Sai-Sports-Unit.github.io/taekwondo-academy/"
-title = "Taekwondo Academy"
-theme = "PaperMod"
+title   = "Taekwondo Training | Sai Sports Unit Academy"
+theme   = "PaperMod"
 
-languageCode = "en"
+locale = "en-us"
+languageCode = "en-us"
+defaultContentLanguage = "en"
 
+# Enable robots.txt generation
+enableRobotsTXT = true
+
+# Build settings
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+
+# Markdown renderer
+[markup.goldmark.renderer]
+  unsafe = true   # allows raw HTML in markdown (needed for YouTube embeds, iframes)
+
+[markup.highlight]
+  noClasses = false
+
+# ──────────────────────────────────────────────
+# Site parameters
+# ──────────────────────────────────────────────
 [params]
-  description = "Premier Taekwondo Training Center"
-  ShowBreadCrumbs = true
-  ShowReadingTime = false
+  env         = "production"          # enables OG / Twitter cards / Schema JSON
+  title       = "Taekwondo Training | Sai Sports Unit Academy"
+  description = "Premier Taekwondo training for kids, teens, and adults. Build discipline, confidence, and strength at Sai Sports Unit Academy."
+  keywords    = ["taekwondo", "martial arts", "kids martial arts", "self defense", "black belt", "taekwondo academy", "karate classes near me"]
+  author      = "Sai Sports Unit Academy"
+
+  # Default theme — set to "dark" for black/red feel, or "auto"
+  defaultTheme  = "dark"
+  disableThemeToggle = false
+
+  # Date / reading time
+  ShowReadingTime  = false
+  ShowShareButtons = false
+  ShowBreadCrumbs  = true
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = false
+
+  # Home page — use homeInfoParams (not profileMode) for the hero banner
+  [params.homeInfoParams]
+    Title   = "⚡ Sai Sports Unit Academy"
+    Content = """
+**Discipline. Respect. Excellence.**
+
+World-class Taekwondo training for all ages and skill levels.  
+From your child's first kick to your black belt journey — we're with you every step.
+
+<div class="hero-cta">
+  <a href="/programs/" class="btn-primary">Explore Programs</a>
+  <a href="/contact/" class="btn-secondary">Book a Free Trial</a>
+</div>
+"""
+
+  # Social / contact icons shown on home info footer
+  [[params.socialIcons]]
+    name  = "facebook"
+    title = "Facebook"
+    url   = "https://facebook.com/yourpage"
+
+  [[params.socialIcons]]
+    name  = "instagram"
+    title = "Instagram"
+    url   = "https://instagram.com/yourpage"
+
+  [[params.socialIcons]]
+    name  = "youtube"
+    title = "YouTube"
+    url   = "https://youtube.com/@yourchannel"
+
+  # Cover images
+  [params.cover]
+    hidden          = false
+    hiddenInList    = false
+    hiddenInSingle  = false
+    linkFullImages  = true
+    responsiveImages = true
+
+  # Open Graph / SEO
+  [params.assets]
+    favicon           = "/favicon.ico"
+    favicon16x16      = "/favicon-16x16.png"
+    favicon32x32      = "/favicon-32x32.png"
+    apple_touch_icon  = "/apple-touch-icon.png"
+    safari_pinned_tab = "/safari-pinned-tab.svg"
+    theme_color       = "#c0392b"           # red — used by Chrome on Android
+    msapplication_TileColor = "#1a1a1a"
+
+  # Schema.org LocalBusiness — replace all [PLACEHOLDERS]
+  [params.schema]
+    publisherType = "SportsActivityLocation"
+
+# ──────────────────────────────────────────────
+# Navigation menu
+# ──────────────────────────────────────────────
+[[menu.main]]
+  name       = "Home"
+  url        = "/"
+  weight     = 1
 
 [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+  name       = "About"
+  url        = "/about/"
+  weight     = 2
 
 [[menu.main]]
-  name = "About Us"
-  url = "/about/"
-  weight = 2
+  name       = "Programs"
+  url        = "/programs/"
+  weight     = 3
 
 [[menu.main]]
-  name = "Programs"
-  url = "/programs/"
-  weight = 3
+  name       = "Schedule"
+  url        = "/schedule/"
+  weight     = 4
 
 [[menu.main]]
-  name = "Schedule"
-  url = "/schedule/"
-  weight = 4
+  name       = "Instructors"
+  url        = "/instructors/"
+  weight     = 5
 
 [[menu.main]]
-  name = "Gallery"
-  url = "/gallery/"
-  weight = 5
+  name       = "Gallery"
+  url        = "/gallery/"
+  weight     = 6
 
 [[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 6
+  name       = "Contact"
+  url        = "/contact/"
+  weight     = 7
+
+# ──────────────────────────────────────────────
+# Output formats — keeps JSON index for potential search
+# ──────────────────────────────────────────────
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

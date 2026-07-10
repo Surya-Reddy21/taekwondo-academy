@@ -1,0 +1,20 @@
+{{- /* ═══════════════════════════════════════════════════
+     Custom footer content for Dragon Spirit Taekwondo
+     ═══════════════════════════════════════════════════ */}}
+
+{{- /* Sticky "Book Free Trial" bar on mobile — renders only on small screens via CSS */}}
+<div class="mobile-cta-bar">
+  <a href="/contact/" class="btn-primary">🥋 Book Your Free Trial</a>
+</div>
+
+<style>
+.mobile-cta-bar {
+  display: none;
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+  background: var(--tk-black); padding: 0.75rem 1rem;
+  border-top: 2px solid var(--tk-red); text-align: center;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
+}
+.mobile-cta-bar .btn-primary { width: 100%; max-width: 340px; display: inline-block; }
+@media (max-width: 600px) { .mobile-cta-bar { display: block; } }
+</style>

@@ -1,0 +1,25 @@
+{{- /* ═══════════════════════════════════════════════════
+     Custom <head> additions for Sai Sports Unit Academy
+     ═══════════════════════════════════════════════════ */}}
+
+{{- /* Google Fonts — load Inter for clean modern type */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+{{- /* Apply Inter across the site */}}
+<style>
+  body, .menu a, .logo a {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  }
+</style>
+
+{{- /* Open Graph image fallback */}}
+{{- if not .Params.images }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og-default.jpg">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-default.jpg">
+{{- end }}
+
+{{- /* Twitter card type */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@yourhandle">
