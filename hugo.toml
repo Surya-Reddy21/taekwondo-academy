@@ -2,30 +2,20 @@ baseURL = "https://Surya-Reddy21.github.io/taekwondo-academy/"
 title = "Taekwondo Academy"
 theme = "PaperMod"
 
-# Language & SEO
 languageCode = "en"
-defaultContentLanguage = "en"
 
 [params]
-  description = "Premier Taekwondo Academy in Gooty. Training for all ages and levels."
-  author = "Your Academy Name"
-
-  # Appearance
+  description = "Premier Taekwondo Training Center"
+  ShowBreadCrumbs = true
   ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = false
 
-  # Home page
-  homeMetaContent = "Taekwondo | Discipline | Focus | Strength"
-
-[menu]
+[menu.main]
   [[menu.main]]
     name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "About"
+    name = "About Us"
     url = "/about/"
     weight = 2
   [[menu.main]]
@@ -41,10 +31,6 @@ defaultContentLanguage = "en"
     url = "/gallery/"
     weight = 5
   [[menu.main]]
-    name = "Instructors"
-    url = "/instructors/"
-    weight = 6
-  [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 6
