@@ -59,8 +59,18 @@ body {
 a { color: var(--red); text-decoration: none; transition: color var(--t); }
 a:hover { color: var(--red-d); }
 img { max-width: 100%; height: auto; display: block; }
-.main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
-.post-single { max-width: 860px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+/* Remove ALL PaperMod width constraints */
+.main {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: unset !important;
+}
+.post-single { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+.post-content { margin: 0 !important; }
+.post-header  { display: none !important; }
+.post-footer  { display: none !important; }
+.post-single { max-width: 100% !important; padding: 0 !important; }
 
 /* ── NAV ── */
 .header {
@@ -651,3 +661,14 @@ body .section-title::after,
   .values-grid   { grid-template-columns: 1fr; }
   .sched-tab     { padding: 0.5rem 0.7rem; font-size: 0.75rem; }
 }
+
+/* ── INNER PAGE CONTENT — full width, no post-single constraint ── */
+.page-content {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* Remove PaperMod's narrow post-single wrapper styling on our pages */
+.page-content .post-single,
+.page-content article { max-width: 100%; padding: 0; margin: 0; }
