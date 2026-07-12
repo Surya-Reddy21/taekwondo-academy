@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://surya-reddy21.github.io/taekwondo-academy/about/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/categories/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/schedule/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/contact/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/gallery/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/instructors/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/programs/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/</loc></url><url><loc>https://surya-reddy21.github.io/taekwondo-academy/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/taekwondo-academy/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/schedule/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/gallery/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/instructors/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/programs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/taekwondo-academy/tags/</loc>
+  </url>
+</urlset>

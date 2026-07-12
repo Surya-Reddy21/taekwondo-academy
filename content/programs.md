@@ -11,7 +11,7 @@ draft: false
 
 ---
 
-<section class="section-block program-section" id="little-tigers">
+<!-- <section class="section-block program-section" id="little-tigers">
 <div class="program-detail">
 <div class="program-detail-badge badge-gold">Ages 4 – 7</div>
 <h2>🐯 Little Tigers</h2>
@@ -170,7 +170,7 @@ draft: false
 
 <a href="/taekwondo-academy/contact/" class="btn-primary">Book a Private Lesson</a>
 </div>
-</section>
+</section> -->
 
 ---
 

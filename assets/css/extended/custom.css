@@ -224,7 +224,7 @@ body .section-title::after,
 .card-link:hover { color: var(--red-d); gap: 0.55rem; }
 
 /* ── FEATURES ── */
-.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.25rem; margin-top: 3rem; }
+.features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-top: 3rem; }
 .feature-item {
   background: var(--white); border-radius: 14px; padding: 1.5rem;
   border: 1px solid var(--border); border-left: 4px solid var(--red);
@@ -237,8 +237,12 @@ body .section-title::after,
   background: linear-gradient(135deg, var(--red-bg), var(--gold-bg));
   display: flex; align-items: center; justify-content: center;
 }
-.feature-item h4 { color: var(--ink); margin: 0 0 0.35rem; font-weight: 700; font-size: 0.97rem; }
-.feature-item p  { color: var(--ink-mid); font-size: 0.87rem; line-height: 1.6; margin: 0; }
+/* Text wrapper — must have flex:1 and min-width:0 to prevent text squishing */
+.feature-text { flex: 1; min-width: 0; }
+.feature-item h4, .feature-text h4 { color: var(--ink); margin: 0 0 0.35rem; font-weight: 700; font-size: 0.97rem; }
+.feature-item p,  .feature-text p  { color: var(--ink-mid); font-size: 0.87rem; line-height: 1.6; margin: 0; }
+/* When h4/p are direct children of feature-item (no wrapper div), also give them room */
+.feature-item > h4, .feature-item > p { flex: 1; min-width: 0; }
 
 /* ── TESTIMONIALS ── */
 .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 3rem; }

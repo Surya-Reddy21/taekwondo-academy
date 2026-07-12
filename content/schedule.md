@@ -4,7 +4,7 @@ description: "Full weekly class timetable at Sai Sports Unit Academy — Kids, T
 draft: false
 ---
 
-<section class="page-hero">
+<!-- <section class="page-hero">
 <h1>Class Schedule</h1>
 <p>Morning, afternoon, and evening classes for every age and level.<br>New sessions begin every month — your first class is always free.</p>
 </section>
@@ -521,7 +521,7 @@ event.currentTarget.setAttribute('aria-selected', 'true');
 </div>
 </div>
 </div>
-</section>
+</section> -->
 
 <section class="cta-banner">
 <h2>Reserve Your Free Trial Class</h2>

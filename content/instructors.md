@@ -46,9 +46,9 @@ draft: false
 <div class="instructor-card-photo">
 <div class="photo-placeholder-sm">🥋<br><small>Replace with photo</small></div>
 </div>
-<h3>[Instructor Name]</h3>
-<p class="instructor-rank-sm">🥋 [X]th Dan Black Belt</p>
-<p>Specializes in Little Tigers and Junior Champions programs. [He/She] brings a background in [competitive poomsae / sparring / etc.] and has been coaching at the academy since [year].</p>
+<h3>Anjum</h3>
+<!--<p class="instructor-rank-sm">🥋 [X]th Dan Black Belt</p> -->
+<p>She specializes in the Little Tigers and Junior Champions programs. She has a background in competition forms and fighting, and has been coaching at the academy since [year].</p>
 <div class="instructor-credentials">
 <span class="credential-tag">[Rank]</span>
 <span class="credential-tag">[Specialty]</span>
@@ -59,9 +59,9 @@ draft: false
 <div class="instructor-card-photo">
 <div class="photo-placeholder-sm">🥋<br><small>Replace with photo</small></div>
 </div>
-<h3>[Instructor Name]</h3>
-<p class="instructor-rank-sm">🥋 [X]th Dan Black Belt</p>
-<p>Our Teen & Adult program lead. Former national team competitor with extensive experience in Olympic-style sparring and fitness conditioning for martial artists.</p>
+<h3>Keerthana</h3>
+<!--<p class="instructor-rank-sm">🥋 [X]th Dan Black Belt</p> -->
+<p>Content</p>
 <div class="instructor-credentials">
 <span class="credential-tag">[Rank]</span>
 <span class="credential-tag">[Specialty]</span>
@@ -72,9 +72,9 @@ draft: false
 <div class="instructor-card-photo">
 <div class="photo-placeholder-sm">🥋<br><small>Replace with photo</small></div>
 </div>
-<h3>[Instructor Name]</h3>
-<p class="instructor-rank-sm">🥋 [X]th Dan Black Belt</p>
-<p>Leads our Black Belt Program and self-defense workshops. [He/She] holds additional certifications in [fitness / strength & conditioning / sports psychology] and brings a holistic approach to martial arts training.</p>
+<h3>Karishma</h3>
+<!--<p class="instructor-rank-sm">🥋 [X]th Dan Black Belt</p>-->
+<p>Content</p>
 <div class="instructor-credentials">
 <span class="credential-tag">[Rank]</span>
 <span class="credential-tag">[Specialty]</span>
@@ -89,7 +89,7 @@ draft: false
 <span class="safety-icon">🛡️</span>
 <div>
 <h3>Child Safety First</h3>
-<p>All Sai Sports Unit instructors and assistants have undergone rigorous background checks and hold current first aid certifications. We follow [your country/state] child safeguarding guidelines and maintain a safe, respectful training environment for every student.</p>
+<p>All Sai Sports Unit instructors and assistants have undergone rigorous background checks and hold current first aid certifications. We follow state and country child safeguarding guidelines and maintain a safe, respectful training environment for every student.</p>
 </div>
 </div>
 </section>

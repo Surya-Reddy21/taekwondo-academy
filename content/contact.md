@@ -20,7 +20,7 @@ draft: false
 <div>
 <strong>Address</strong><br>
 [Street Address]<br>
-[City, State ZIP]
+Gooty, Anantapur (Dist.), Andhra Pradesh
 </div>
 </div>
 
@@ -46,7 +46,7 @@ draft: false
 <strong>Office Hours</strong><br>
 Mon – Fri: 00:00 PM – 00:00 PM<br>
 Saturday: 00:00 AM – 00:00 PM<br>
-Sunday: Closed
+Sunday: 00:00 AM - 00:00 PM
 </div>
 </div>
 
