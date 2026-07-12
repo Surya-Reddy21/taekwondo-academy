@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-description: "Learn about Sai Sports Unit Academy — our history, philosophy, and commitment to building champions on and off the mat."
+description: "Learn about Sai Sports Unit — our history, philosophy, and commitment to building champions on and off the mat."
 draft: false
 ---
 
@@ -13,7 +13,7 @@ draft: false
 <div class="two-col">
 <div class="two-col-text">
 <h2>How It All Began</h2>
-<p>Sai Sports Unit Academy was founded in <strong>2018</strong> by Master <strong>Sai Teja</strong></p>
+<p>Sai Sports Unit was founded in <strong>2018</strong> by Master <strong>Sai Teja</strong></p>
 <p></p>
 <p></p>
 </div>

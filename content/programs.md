@@ -1,6 +1,6 @@
 ---
 title: "Programs"
-description: "Taekwondo programs for all ages at Sai Sports Unit Academy — from Little Tigers to Black Belt. Explore our curriculum and find the right class for you."
+description: "Taekwondo programs for all ages at Sai Sports Unit — from Little Tigers to Black Belt. Explore our curriculum and find the right class for you."
 draft: false
 ---
 

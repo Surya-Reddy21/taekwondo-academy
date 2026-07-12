@@ -1,6 +1,6 @@
 ---
 title: "Class Schedule"
-description: "Full weekly class timetable at Sai Sports Unit Academy — Kids, Teens, Adults, and Black Belt programs. Find your class and book a free trial."
+description: "Full weekly class timetable at Sai Sports Unit — Kids, Teens, Adults, and Black Belt programs. Find your class and book a free trial."
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Gallery"
-description: "See Sai Sports Unit Academy students in action — training, competing, earning belts, and celebrating together."
+description: "See Sai Sports Unit students in action — training, competing, earning belts, and celebrating together."
 draft: false
 ---
 
@@ -320,7 +320,7 @@ if (e.key === 'ArrowRight') navigate(1);
 <div class="video-wrapper">
 <iframe
 src="https://www.youtube.com/embed/VIDEO_ID_1?rel=0&modestbranding=1"
-title="Training Highlights — Sai Sports Unit Academy"
+title="Training Highlights — Sai Sports Unit"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen loading="lazy">
 </iframe>
@@ -331,7 +331,7 @@ allowfullscreen loading="lazy">
 <div class="video-wrapper">
 <iframe
 src="https://www.youtube.com/embed/VIDEO_ID_2?rel=0&modestbranding=1"
-title="Competition Highlights — Sai Sports Unit Academy"
+title="Competition Highlights — Sai Sports Unit"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen loading="lazy">
 </iframe>
@@ -355,7 +355,7 @@ allowfullscreen loading="lazy">
 
 <section class="cta-banner">
 <h2>Your Photo Could Be Next</h2>
-<p>Join Sai Sports Unit Academy and start your martial arts story today.</p>
+<p>Join Sai Sports Unit and start your martial arts story today.</p>
 <div class="cta-buttons">
 <a href="/taekwondo-academy/contact/" class="btn-primary btn-large">Book Your Free Trial</a>
 <a href="/taekwondo-academy/schedule/" class="btn-secondary btn-large">View Schedule</a>

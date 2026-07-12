@@ -1,5 +1,5 @@
 baseURL = "https://surya-reddy21.github.io/taekwondo-academy/"
-title   = "Taekwondo | Sai Sports Unit Academy"
+title   = "Taekwondo | Sai Sports Unit"
 theme   = "PaperMod"
 
 locale = "en-us"
@@ -26,10 +26,10 @@ buildExpired = false
 # ──────────────────────────────────────────────
 [params]
   env         = "production"          # enables OG / Twitter cards / Schema JSON
-  title       = "Taekwondo | Sai Sports Unit Academy"
-  description = "Premier Taekwondo training for kids, teens, and adults. Build discipline, confidence, and strength at Sai Sports Unit Academy."
+  title       = "Taekwondo | Sai Sports Unit"
+  description = "Premier Taekwondo training for kids, teens, and adults. Build discipline, confidence, and strength at Sai Sports Unit."
   keywords    = ["taekwondo", "martial arts", "kids martial arts", "self defense", "black belt", "taekwondo academy", "karate classes near me"]
-  author      = "Sai Sports Unit Academy"
+  author      = "Sai Sports Unit "
 
   # Light theme — bright, clean, professional
   defaultTheme  = "light"
@@ -44,7 +44,7 @@ buildExpired = false
 
   # Home page — use homeInfoParams (not profileMode) for the hero banner
   [params.homeInfoParams]
-    Title   = "Sai Sports Unit Academy"
+    Title   = "Sai Sports Unit"
     Content = """
 **Discipline. Respect. Excellence.**
 

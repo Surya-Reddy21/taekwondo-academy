@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-description: "Get in touch with Sai Sports Unit Academy. Book your free trial class, ask questions, or find us on the map."
+description: "Get in touch with Sai Sports Unit. Book your free trial class, ask questions, or find us on the map."
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Our Instructors"
-description: "Meet the certified black belt instructors at Sai Sports Unit Academy. Passionate, experienced, and dedicated to your success."
+description: "Meet the certified black belt instructors at Sai Sports Unit. Passionate, experienced, and dedicated to your success."
 draft: false
 ---
 
@@ -21,7 +21,7 @@ draft: false
 <div class="instructor-bio">
 <h2>Master Sai Teja</h2>
 <p class="instructor-rank">🏅 Belt · 8+ Years Experience</p>
-<!--<p>Master Sai Teja founded Sai Sports Unit Academy after an accomplished competitive career representing [country/region] at national and international levels. A graduate of [university/program if applicable], Master [Name] holds certifications from [World Taekwondo / ATA / your federation] as a [Level X] coach.</p> -->
+<!--<p>Master Sai Teja founded Sai Sports Unit after an accomplished competitive career representing [country/region] at national and international levels. A graduate of [university/program if applicable], Master [Name] holds certifications from [World Taekwondo / ATA / your federation] as a [Level X] coach.</p> -->
 <p>With over 8 years of teaching experience, Master Sai Teja has guided students of all ages from their first white belt class to black belt and beyond. Known for a coaching style that is firm but encouraging, Master Sai Teja has produced many national and state medalists.</p>
 <blockquote class="instructor-quote">"Every student who walks through that door has the potential to be a champion — on the mat and in life. My job is to help them find it."</blockquote>
 <!--<div class="instructor-credentials">
