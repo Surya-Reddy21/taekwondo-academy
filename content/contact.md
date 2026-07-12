@@ -65,11 +65,11 @@ Sunday: 00:00 AM - 00:00 PM
   <div class="form-row">
     <div class="form-group">
       <label for="name">Your Name *</label>
-      <input type="text" id="name" name="name" placeholder="John Smith" required>
+      <input type="text" id="name" name="name" placeholder="" required>
     </div>
     <div class="form-group">
       <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000">
+      <input type="tel" id="phone" name="phone" placeholder="">
     </div>
   </div>
   <div class="form-group">
